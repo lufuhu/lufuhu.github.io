@@ -1,0 +1,14 @@
+{
+  "include": [".vitepress/**/*.ts", ".vitepress/**/*.mts", ".vitepress/**/*.d.ts", ".build/**/*.mts", "**/*.d.ts"],
+  "exclude": ["node_modules", ".vitepress/cache", ".vitepress/cache"],
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "lib": ["es2021", "dom"],
+    "target": "es2021",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": { "@/*": ["./.vitepress/theme/*"] }
+  }
+}

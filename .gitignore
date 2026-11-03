@@ -1,0 +1,22 @@
+node_modules
+*.local
+dist
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.screenshots/
+
+.vitepress/cache
+.vitepress/dist
+.vitepress/.temp
+/note/index.md
+/note/page/*.md
+/note/*/index.md
+/note/*/page/*.md

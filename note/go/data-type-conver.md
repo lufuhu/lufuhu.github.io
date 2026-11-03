@@ -1,0 +1,232 @@
+---
+title: Go 数据类型转换
+lastUpdated: 2025-03-10 14:22:22
+---
+
+## String To Other
+### string to int
+- 方法一
+```go
+str := "10"
+int, err := strconv.Atoi(str)
+```
+- 方法二
+```go
+str := "10"
+int, err := strconv.ParseInt(str, 10, 0)
+```
+### string to int8
+```go
+str := "10"
+int, err := strconv.ParseInt(str, 10, 8)
+```
+### string to int32
+```go
+str := "10"
+int, err := strconv.ParseInt(str, 10, 32)
+```
+### string to int64
+```go
+str := "10"
+int, err := strconv.ParseInt(str, 10, 64)
+```
+### string to float32
+```go
+ret, _ := strconv.ParseFloat("3.14159", 32)
+fmt.Println(ret)
+```
+### string to float64
+```go
+ret, _ := strconv.ParseFloat("3.14159", 64)
+fmt.Println(ret)
+```
+### string to []byte
+```go
+s1 := "hello"
+b := []byte(s1)
+```
+### json string to map
+```go
+func JsonToMap(jsonStr string) (m map[string]string, err error) {
+	err = json.Unmarshal([]byte(jsonStr), &m)
+	if err != nil {
+		return nil, err
+	}
+	return
+}
+```
+## Other To String
+### []byte to string
+```go
+var s1 []byte
+fmt.Println(string(s1))
+```
+### int64 to string
+
+int, int32, int16, int8 转十进制字符串
+```go
+var number int = 12 // 可以在这里使用任何整数: int32, int16, int8
+s := strconv.FormatInt(int64(123), 10)
+fmt.Println(s)
+```
+要转换 `int` 为 `string` 也可以使用 `strconv.Itoa` 等价于 `strconv.FormatInt(int64(i), 10)`.
+```go
+number := 12
+str := strconv.Itoa(number)
+fmt.Println(str)
+```
+## Map To Other
+### map to json string
+```go
+func MapToJson(m map[string]string) (string, error) {
+	result, err := json.Marshal(m)
+	if err != nil {
+		return "", nil
+	}
+	return string(result), nil
+}
+```
+通常会使用第三方的json库进行解析，比如：[github.com/json-iterator/go](https://github.com/json-iterator/go)
+```go
+package main
+
+import (
+	"fmt"
+
+	jsoniter "github.com/json-iterator/go"
+)
+
+var json = jsoniter.ConfigCompatibleWithStandardLibrary
+
+func main() {
+	tmpData := map[string]interface{}{"name": "eryajf", "age": 18}
+
+	output, err := json.Marshal(&tmpData)
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(string(output))
+}
+```
+### map to slice
+```go
+func MapToSlice(m map[int]string) []string {
+  s := make([]string, 0, len(m))
+  for _, v := range m {
+    s = append(s, v)
+  }
+  return s
+}
+```
+## Json To Other
+### json to map
+```go
+func JsonToMap() {
+	jsonStr := `{"name": "eryajf","age": 18}`
+	var mapResult map[string]interface{}
+	err := json.Unmarshal([]byte(jsonStr), &mapResult)
+	if err != nil {
+		fmt.Println("JsonToMap err: ", err)
+	}
+	fmt.Println(mapResult)
+}
+```
+### json to struct
+```go
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+)
+
+type People struct {
+	Name string `json:"name"`
+	Age int `json:"age"`
+}
+
+func main() {
+	jsonStr := `{"name": "eryajf","age": 18}`
+	var people People
+	json.Unmarshal([]byte(jsonStr), &people)
+	fmt.Println(people.Name, people.Age)
+}
+```
+使用JSON库进行解析：
+```go
+package main
+
+import (
+	"fmt"
+
+	jsoniter "github.com/json-iterator/go"
+)
+
+type People struct {
+	Name string `json:"name"`
+	Age int `json:"age"`
+}
+
+func main() {
+	jsonStr := `{"name": "eryajf","age": 18}`
+	var people People
+	json.Unmarshal([]byte(jsonStr), &people)
+	fmt.Println(people.Name, people.Age)
+}
+```
+## Struct To Other
+### struct to json
+```go
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+)
+
+type People struct {
+	Name string `json:"name"`
+	Age int `json:"age"`
+}
+
+func main() {
+	p := People{
+		Name: "eryajf",
+		Age:  18,
+	}
+	jsonBytes, err := json.Marshal(p)
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(string(jsonBytes))
+}
+```
+使用JSON库进行解析：
+```go
+package main
+
+import (
+	"fmt"
+
+	jsoniter "github.com/json-iterator/go"
+)
+
+var json = jsoniter.ConfigCompatibleWithStandardLibrary
+
+type People struct {
+	Name string `json:"name"`
+	Age  int    `json:"age"`
+}
+
+func main() {
+	p := People{
+		Name: "eryajf",
+		Age:  18,
+	}
+	jsonBytes, err := json.Marshal(p)
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(string(jsonBytes))
+}
+```

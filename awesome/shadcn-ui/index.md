@@ -1,0 +1,570 @@
+---
+sidebar: false
+aside: false
+pageClass: container-page container-columns
+---
+
+::: masonry
+## 样板 / 模板
+- [react-starter-kit](https://github.com/kriasoft/react-starter-kit) - 一个固执己见的全栈样板，用于在边缘构建现代 Web 应用。特性包括 Bun、React 19、tRPC、Drizzle ORM 和 Cloudflare Workers。
+- [taxonomy](https://github.com/shadcn/taxonomy) - 使用新路由、服务器组件以及 Next.js 中所有新特性的开源应用。
+- [openui-shadcn-chat](https://github.com/thesysdev/openui/tree/main/examples/design-systems/shadcn) - 使用 OpenUI Lang 和 shadcn/ui 组件库的全栈生成式 UI 聊天机器人模板，支持 SSE 流式传输和工具调用。
+- [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - 基于 Nextjs 14 和 shadcn/ui 的管理后台仪表盘启动模板。
+- [cloudflare-saas-stack](https://github.com/Dhravya/cloudflare-saas-stack) - 一个固执己见、功能齐全的启动套件，用于在 Cloudflare 上快速构建和部署 SaaS 产品。
+- [next-shadcn-admin-dashboard](https://github.com/arhamkhnz/next-shadcn-admin-dashboard) - 使用 Shadcn UI 和 Next.js 15 构建的现代管理仪表盘模板。
+- [create-tauri-ui](https://github.com/agmmnn/tauri-ui) - 使用 shadcn/ui、桌面优先默认配置和可选功能包创建现代 Tauri 桌面应用。
+- [shadcn-landing-page](https://github.com/leoMirandaa/shadcn-landing-page) - 使用 shadcn/ui、React、TypeScript 和 Tailwind CSS 构建的落地页模板。
+- [chadnext](https://github.com/moinulmoin/chadnext) - 快速启动模板，包含 Next.js 14 App Router、shadcn/ui、LuciaAuth、Prisma、Server Actions、Stripe、国际化等。
+- [next-wp](https://github.com/9d8dev/next-wp) - 基于 NextJS App Router 和 React Server Components 构建的无头 WordPress 启动器。
+- [shadcn-landing-page-vue](https://github.com/nobruf/shadcn-landing-page) - shadcn-vue 落地页模板的 Next.js 版本，基于 shadcn/ui、TypeScript 和 Tailwind CSS 构建。
+- [shadcn-dashboard-landing-template](https://github.com/shadcnstore/shadcn-dashboard-landing-template) - 使用 Vite-React、Next.js、Tailwind CSS 和 Shadcn/UI 构建的时尚开源管理仪表盘和落地页，完全可定制且生产就绪，加速您的开发。
+- [next-starter](https://github.com/Skolaczk/next-starter) - 功能丰富的 Next.js 启动模板，包含 TypeScript、TailwindCSS、Next-auth、Eslint、Stripe、测试工具等。高效且时尚地启动你的项目。
+- [astro-erudite](https://github.com/jktrn/astro-erudite) - 一个固执己见、无样式的静态博客模板——基于 Astro、Tailwind 和 shadcn/ui 构建。
+- [electron-shadcn](https://github.com/LuanRoger/electron-shadcn) - Electron 应用模板，内置 shadcn/ui 及众多其他库和工具，开箱即用。
+- [shadboard](https://github.com/Qualiora/shadboard) - 使用 Next.js 15、React 19、Tailwind CSS v4 和 Shadcn/UI 组件构建的管理后台模板，提供入门套件和完整套件，用于可扩展、用户友好的 Web 应用。
+- [shadcn-nextjs-free-boilerplate](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) - 免费且开源的 NextJS 样板 + ChatGPT API 仪表盘模板。
+- [easy-ui](https://github.com/DarkInventor/easy-ui) - 50+ 高质量开源网站模板，使用 NextJS + shadcn/ui + Tailwind CSS + Framer Motion 等构建。
+- [shadcndashboard](https://github.com/shadcndashboard/shadcndashboard) - 使用开源完整的 shadcn 仪表盘套件更快地构建管理面板。
+- [shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) - 使用 Vue、shadcn-vue、TypeScript 和 Tailwind CSS 构建的落地页模板。
+- [nextjs-mdx-blog](https://github.com/ChangoMan/nextjs-mdx-blog) - 使用 Contentlayer、MDX、shadcn/ui 和 Tailwind CSS 构建的启动模板。
+- [hikari](https://github.com/coremvp/Hikari) - 面向个人账户的免费 Next.js 启动器，包含 shadcn/ui 仪表盘、Supabase 身份验证和 Stripe 定期计费。
+- [shadcn-next-workflows](https://github.com/nobruf/shadcn-next-workflows) - 使用 React Flows、Next.js 和 Shadcn/ui 构建的交互式工作流构建器。轻松创建、连接和验证自定义节点。
+- [tailwind-admin](https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template) - 基于 React 和 Tailwind CSS 构建的开源 Shadcn 仪表盘模板。
+- [t3-app-template](https://github.com/gaofubin/t3-app-template) - 适用于 T3 Stack 和 shadcn/ui 的管理模板。
+- [onyx](https://github.com/rmourey26/onyx) - 全栈、功能齐全的 MVP 模板，包含 NextJS 14、Supabase SSR 认证和带 CRUD 操作的 Postgres 数据库、RBAC、Tanstack React Query、Zod 验证、MDX 组件、Resend 等。
+- [create-tauri-core](https://github.com/mrlightful/create-tauri-core) - 用于创建 Tauri 应用的项目模板，使用 Vite、React 和 Tailwind CSS。
+- [shadcn-portfolio](https://github.com/techwithanirudh/shadcn-portfolio) - 使用 shadcn-ui 和 Next.JS 的作品集模板。
+- [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui。
+- [wordpress-plugin-boilerplate](https://github.com/prappo/wordpress-plugin-boilerplate) - WordPress 插件样板，利用现代 Web 技术和工具，如 React、TypeScript、SASS、TailwindCSS、Shadcn UI、Vite、Grunt.js、Storybook、HMR 等。
+- [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo 启动模板，预配置了 shadcn/ui 和 TailwindCSS，用于共享 UI 组件。
+- [next-motion](https://github.com/yoyocharlie/nextMotion) - 集成 Nodemailer 的 Web 开发作品集模板，便于设置联系表单。使用 shadcn/ui + TailwindCSS + Framer Motion。
+- [shadcn-nextjs-dashboard](https://github.com/NaveenDA/shadcn-nextjs-dashboard) - 使用 Shadcn 和 NextJS 构建的管理仪表盘 UI。免费且开源。
+- [shadcn-fintech](https://github.com/abderrahimghazali/shadcn-fintech) - 高级金融科技仪表盘，包含 10 个页面——拖拽布局、3D 信用卡、实时投资行情、消费热力图、可操作通知和深色模式。基于 Next.js 16、shadcn/ui 和 Tailwind CSS v4 构建。
+- [browser-extension-starter-plasmo-shadcn-trpc](https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc) - 浏览器扩展启动套件，包含 Plasmo、React、Shadcn 和 tRPC。
+- [shadcn-saas-landing](https://github.com/techwithanirudh/shadcn-saas-landing) - 使用 Next.JS、shadcn/ui 和 fumadocs 构建的完整 SaaS 落地页模板。
+- [turborepo-launchpad](https://github.com/JadRizk/turborepo-launchpad) - 一个全面的 monorepo 样板，用于使用 Turbo 的 shadcn 项目。它具有高度可扩展的设置，非常适合开发具有共享组件和工具的复杂应用。
+- [fumadocs-starter](https://github.com/techwithanirudh/fumadocs-starter) - 一个功能完备的 Fumadocs 启动模板，内置插件、AI 功能，以及构建下一个文档站点所需的一切。
+- [sveltekit-shadcn-starter-kit](https://github.com/GantonL/templates/tree/main/sveltekit-shadcn-v5) - 基于 shadcn-svelte 组件、Drizzle、身份验证、国际化、无障碍、应用外壳和开发工具的 SvelteKit 起始模板。
+- [chatdeck-shadcn-saas-landing-template](https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template) - ChatDeck — 基于 Next.js 和 Tailwind CSS 构建的免费 Shadcn UI SaaS 落地页模板。
+- [supa-next-shad-auth](https://github.com/Sahil-Sharma-23/supa-next-shad-auth) - 一个完全响应式、完全类型安全、安全的服务器操作、用户友好的可定制 UI，并遵循最佳实践。使用的技术：NextJS + Supabase + TypeScript + Server Actions + Zod + shadcn/ui。
+- [full-stack-monorepo-starter](https://github.com/mnove/monorepo-starter-graphql) - 使用 shadcn/ui + Fastify + graphql + vitejs + Docker 等构建的全栈 monorepo 模板。
+- [startercn](https://github.com/shadcn-labs/startercn) - 一个 shadcn/ui 注册表模板，内置落地页、文档、AI 代理就绪，并集成 Web 触觉反馈、音频和动画。
+- [custom-admin-dashboard](https://github.com/S5SAJID/custom-ecom) - 一个极简、开源的电商管理后台模板，基于 shadcn/ui 和 Next.js 构建，包含产品、产品创建与详情页、订单、客户和设置页面。
+- [shadcn-registry-template](https://github.com/vantezzen/shadcn-registry-template) - 用于为 shadcn/ui 构建自定义组件注册表的模板仓库。
+- [react-vite-starter](https://github.com/tejachundru/react-vite-starter) - React 启动模板，基于 Vite + Redux Toolkit + RTKQuery + React Router + shadcn UI 等构建。
+- [next-js-boilerplate](https://github.com/AbhishekSharma55/next-js-boilerplate) - Next.js 启动器，包含 TypeScript、NextAuth.js、PostgreSQL、Prisma、Sentry、Tailwind CSS、shadcn/ui、Zod、Zustand、nuqs、ESLint、Husky 和 Prettier。
+- [devstarter](https://github.com/zippystarter/template-devstarter) - Devstarter 是一个大胆的单页开发者作品集模板，具有独特的赛博朋克美学。基于 Next.js、shadcn/ui 和 Tailwind CSS 构建，旨在帮助开发者以脱颖而出的方式展示他们的工作、技能和个性。
+- [turborepo-nextjs-wxt-shadcn-boilerplate](https://github.com/Aniket-508/turborepo-nextjs-wxt-shadcn-boilerplate) - Turborepo 样板，包含 web 和 web-extension 应用，使用 shadcn/ui 共享 UI 组件，并统一 TypeScript、ESLint、Tailwind CSS 和 Prettier 配置。
+- [a11y-starter-kit](https://github.com/thefrontkit/a11y-starter-kit-code) - 免费 WCAG 2.1 AA 入门套件，包含可访问组件、自定义 a11y hooks 和暗色模式。基于 Next.js 16、Tailwind CSS v4 和 shadcn/ui 构建。
+- [deska-dashboard-template](https://github.com/yaminncco/deska-dashboard-template) - 基于 Nuxt、Tailwind 和 Shadcn 构建的仪表盘模板。
+- [agentic-react-nextjs-shadcn](https://github.com/iscale-llc/agentic-react-nextjs-shadcn) - 基于 Next.js 16、shadcn/ui 和 Tailwind CSS 构建的、可进行代理测试的 SaaS 启动模板。包含无障碍优先组件、用于 AI 代理测试的语义化 HTML，以及生产级模式。
+- [cn](https://github.com/jakejarvis/_cn) - 即插即用的 shadcn/ui 注册表模板，由 TanStack Start 驱动。
+- [extension-js-sidebar-shadcn](https://github.com/extension-js/examples/tree/main/examples/sidebar-shadcn) - 浏览器扩展侧边栏启动器，适用于 Chrome、Edge 和 Firefox，基于单一 manifest 构建，使用 shadcn/ui、Tailwind 和 Radix 原语。
+- [hype-stack](https://github.com/BetterTyped/hype-stack) - MIT 许可的全栈 monorepo 启动器，其 Web、桌面、管理后台和扩展应用均基于 shadcn/ui 构建，后端为类型安全的 Hono，可选付费功能包。
+- [7ovr-landing-starter](https://github.com/7ovr/shadcn-next-starter) - 免费的 Next.js 落地页起始模板，其约定和 lint 规则可指导编码代理，并带有 shadcn/ui 预设主题和 SEO 检查。
+- [saas-blocks-kit](https://github.com/SekmenAhmet/saas-blocks-kit) - 10 个生产就绪的 SaaS 落地页区块，使用 Next.js 15、shadcn/ui、Tailwind CSS v4 和 TypeScript 构建。默认暗色模式。
+- [shadcn-vite-starter](https://github.com/7ovr/shadcn-vite-starter) - Vite 和 React 启动模板，其约定、代理技能和 shadcn/ui 代码规范让编码代理保持模式一致，路由、数据获取、表单和表格已基于 shadcn/ui 和 Base UI 配置完成。
+- [forjnot](https://github.com/aman-sharma-dev/forjnot) - 现代项目启动套件：基于 Next.js 和 NestJS 的全栈模板，采用可扩展的 Turborepo monorepo 结构。
+- [saas-dashboard-starter](https://github.com/studiogridpro/saas-dashboard-starter) - 免费 Next.js 16 SaaS 仪表盘启动模板，使用 shadcn/ui（Base UI）、Tailwind CSS 4、Recharts，支持浅色/深色主题。
+- [startx](https://github.com/avinashid/startx) - 生产就绪的 Turborepo 启动器，包含 Next.js、React Router、shadcn/ui、Tailwind CSS v4、TypeScript、共享包、身份验证、rolldown 和可扩展的项目架构。
+- [ecommerce-kit](https://ecommercekit.dev) - Next.js 启动套件，包含快速启动电商网站所需的工具。
+- [kairo-ui](https://www.kairoui.online/) - 适用于 Next.js 16 的免费落地页模板。
+- [kirimase](https://kirimase.dev/) - 用于快速启动下一个项目的模板和样板，基于 shadcn/ui、Tailwind CSS 和 Next.js。
+- [login-auth](https://shadcn-login-auth.vercel.app/) - 使用 Vite + React、Tailwind CSS 和 Shadcn UI 构建的登录认证 Web 应用。它使用 Firebase 实现 Google 登录、邮箱注册和密码重置。
+- [magicui-startup-templates](https://magicui.design/docs/templates/startup) - 使用 shadcn/ui + TailwindCSS + Framer Motion 构建的 Magic UI 启动模板。
+- [next-js-views-template](https://next-js-views-template.vercel.app) - 一个开源的可复用视图组件集合，如 Calendar、Table 等，基于 Next.js 和 ShadCN 构建。您可以轻松地将这些预构建的 UI 元素复制粘贴到项目中，实现快速、响应式和可定制的布局。
+- [shadcn-admin-template](https://shadcnadmin.com) - 适用于 Next.js、React、Vite 和 Vue.js 的管理仪表盘模板，基于 Tailwind CSS 构建。
+- [shadcn-ui-dashboard](https://shadcnuidashboard.com) - 多用途且功能强大的管理仪表盘模板，兼容 shadcn/ui。
+- [template-next](https://template-next-official.vercel.app/) - 一个简洁的 Next.js 模板，包含 TypeScript、TailwindCSS、Shadcn/ui 和 Prettier。
+- [waitly](https://shadcnuikit.com/template/waitly-free-waitlist-template) - 一个简单实用的等待名单 Next.js 和 Shadcn UI 模板。
+:::
+
+::: masonry
+## 库与组件
+- [plate](https://github.com/udecode/plate) - AI 驱动的富文本编辑器。
+- [novel](https://github.com/steven-tey/novel) - Notion 风格所见即所得编辑器，支持 AI 自动补全。
+- [shadcn-admin](https://github.com/satnaing/shadcn-admin) - 使用 shadcn/ui 和 Vite 的管理后台 UI。
+- [assistant-ui](https://github.com/Yonom/assistant-ui) - 用于 AI 聊天的 React 组件。
+- [shadcn-table-v2](https://github.com/sadmann7/shadcn-table) - 支持服务端功能的表格。
+- [neobrutalism-components](https://github.com/ekmas/neobrutalism-components) - Neobrutalism 风格的 Tailwind React 和 shadcn/ui 组件。
+- [maily-to](https://github.com/arikchakma/maily.to) - 类似 Notion 的强大邮件编辑器。
+- [roadmap-ui](https://github.com/haydenbleasel/roadmap-ui) - 用于交互式路线图的组件。
+- [tremor](https://github.com/tremorlabs/tremor) - 用于图表和仪表盘的组件。
+- [auto-form](https://github.com/vantezzen/auto-form) - 一个 React 组件，可根据 zod 模式自动创建 shadcn/ui 表单。
+- [shadcn-multi-select-component](https://github.com/sersavan/shadcn-multi-select-component) - 多选组件。
+- [dice-ui](https://github.com/sadmann7/diceui) - 使用 React、TypeScript 和 Tailwind CSS 构建的可访问 shadcn/ui 组件，可复制粘贴并自定义。
+- [ibelick-background-snippet](https://github.com/ibelick/background-snippets) - 即用型现代背景代码片段集合。
+- [shadcn-ui-expansions](https://github.com/hsuanyi-chou/shadcn-ui-expansions) - 其他实用组件。
+- [blocks-so](https://github.com/ephraimduncan/blocks) - 一套简洁、现代的构建块，可复制粘贴到你的应用中。适用于所有 React 框架。
+- [shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) - 可收缩的响应式侧边栏。
+- [minimal-tiptap](https://github.com/Aslam97/shadcn-minimal-tiptap) - 使用 shadcn/ui 和 tiptap 的极简所见即所得编辑器。
+- [shadcn-chat](https://github.com/jakobhoeg/shadcn-chat) - 可定制的聊天组件。
+- [shadcn-stepper](https://github.com/damianricobelli/stepperize) - 完整的步骤条组件。
+- [spectrum-ui](https://github.com/arihantcodes/spectrum-ui) - 使用 Aceternity UI Magic UI 的集合。
+- [file-uploader](https://github.com/sadmann7/file-uploader) - 使用 shadcn/ui 和 react-dropzone 的文件上传器。
+- [uixmat-onborda](https://github.com/uixmat/onborda) - 适用于 Next.js 应用的产品导览。
+- [shadcn-editor](https://github.com/htmujahid/shadcn-editor) - 带 shadcn 主题的 Lexical 编辑器。
+- [shadcn-extension](https://github.com/BelkacemYerfa/shadcn-extension) - 开源组件集合。
+- [emblor](https://github.com/JaleelB/emblor) - 可定制、可访问的标签输入组件，基于 shadcn/ui。
+- [pdfx](https://github.com/akii09/pdfx) - shadcn/ui 风格的 React PDF 组件库。基于 @react-pdf/renderer 的复制粘贴组件，运行 pdfx add invoice 即可拥有代码。
+- [shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) - 强大的开源 shadcn 组件，用于使用 React 构建精美的内部工具、管理面板和仪表盘。
+- [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - 多月份视图、文本输入、预设范围、响应式设计以及日期范围比较。
+- [styleseed](https://github.com/bitjaru/styleseed) - 包含 48 个 shadcn 风格组件和可替换品牌皮肤的设计引擎。
+- [shadcn-phone-input](https://github.com/omeralpi/shadcn-phone-input) - 带国家验证的电话输入框。
+- [enhanced-button](https://github.com/jakobhoeg/enhanced-button) - 默认 shadcn-button 组件的增强版本。
+- [credenza](https://github.com/redpangilinan/credenza) - 为 shadcn/ui 准备的现成响应式模态框组件。
+- [time-picker](https://github.com/openstatusHQ/time-picker) - 简单的 TimePicker 组件。
+- [fusion-ui](https://github.com/nyxb-ui/ui) - 结合 shadcn/ui 和 MagicUI 的库。
+- [react-dnd-kit-tailwind-shadcn-ui](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) - 带 dnd-kit 的无障碍看板。
+- [twblocks](https://github.com/tommyjepsen/twblocks) - 基于 shadcn 和 Radix 的网站区块。
+- [indie-ui](https://github.com/Ali-Hussein-dev/indie-ui) - 带变体的 UI 组件。
+- [shadcn-tiptap](https://github.com/NiazMorshed2007/shadcn-tiptap) - 自定义 Tiptap 编辑器扩展。
+- [sortable](https://github.com/sadmann7/sortable) - 基于 dnd-kit 的可排序组件。
+- [zoom-charts](https://github.com/shelwinsunga/zoom-chart-demo) - 带 shadcn/ui 的可缩放图表。
+- [componentry](https://github.com/harshjdhv/componentry) - 精美的 React 动画 UI 组件，轻松为你的项目添加精致、生产就绪的交互，样式和动画已处理完毕。浏览组件
+- [calendar](https://github.com/charlietlamb/calendar) - 类似 Google Calendar 的 React/shadcn 完整日历
+- [shadcn-full-calendar](https://github.com/yassir-jeraidi/full-calendar) - 使用 React、TypeScript 和 ShadCN UI 组件构建的功能丰富的日历应用。该项目提供可定制、交互式的日历体验，支持多种视图、事件管理和现代 UI。
+- [shadcn-image-cropper](https://github.com/sujjeee/shadcn-image-cropper) - 使用 react-image-crop 的图像裁剪器。
+- [planner](https://github.com/UretzkyZvi/planner) - 适用于 React 的自适应调度组件。
+- [dnd-dashboard](https://github.com/olliethedev/dnd-dashboard) - 使用 Next.js、shadcn/ui 和 swapy 实现拖拽交换布局的仪表盘。
+- [file-vault](https://github.com/ManishBisht777/file-vault) - 用于 React 的文件上传组件。
+- [shadcn-tree-view](https://github.com/mrlightful/shadcn-tree-view) - 层级数据组件。
+- [shadcn-address-autocomplete](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) - 使用 Google Places API 的地址自动补全。
+- [lingua-time](https://github.com/nainglinnkhant/lingua-time) - 支持自然语言输入的智能日期时间选择器。
+- [shadcn-calendar-component](https://github.com/sersavan/shadcn-calendar-component) - 日历日期选择器组件。
+- [shadcn-timeline](https://github.com/timDeHof/shadcn-timeline) - 可自定义的时间线组件。
+- [shadcn-cookie-consent](https://github.com/r2hu1/shadcn-cookie-consent) - 可定制的 Cookie 同意组件。
+- [shadcn-phone-input-2](https://github.com/damianricobelli/shadcn-phone-input) - 使用 libphonenumber-js 的电话输入框。
+- [ogimagecn](https://github.com/shadcn-labs/ogimagecn) - 精美的 OG 图片，化繁为简。即用型、可定制的 React Open Graph 图片组件。
+- [shadcn-linear-combobox](https://github.com/damianricobelli/shadcn-linear-combobox) - Linear 风格的任务优先级组合框。
+- [jolyui](https://github.com/Johuniq/jolyui) - JolyUI 是一个使用 TypeScript、Tailwind CSS 和 Motion 构建的现代 React 组件库。它提供了广泛的可定制、可访问的 UI 组件，帮助你快速高效地构建出色的 Web 应用。
+- [commerce-ui](https://github.com/stackzero-labs/ui) - 用于构建电商商店前端和应用的组件、区块和示例。
+- [country-state-dropdown](https://github.com/Jayprecode/country-state-dropdown) - 使用 Nextjs、Tailwindcss、shadcn/ui 和 Zustand 构建的组件。
+- [tnks-data-table](https://github.com/jacksonkasi1/tnks-data-table) - 使用 shadcn/ui 和 TanStack Table 构建的高级数据表格组件，具备服务端操作、行选择、过滤、列自定义和导出功能。完全兼容 TypeScript，并附带全面的文档。
+- [pricing-page-shadcn](https://github.com/m4nute/pricing-page-shadcn) - 使用 Next.js 14 的可定制定价页面。
+- [payment-gateways](https://github.com/PremPrakashCodes/payment-gateways) - 与 Next.js 14 的支付网关集成。
+- [drag-to-resize-sidebar](https://github.com/lumpinif/drag-to-resize-sidebar) - 扩展的 shadcn/ui 侧边栏组件，支持持久化状态和拖拽调整大小功能。
+- [fancy-switch](https://github.com/Aslam97/react-fancy-switch) - 基于 shadcn/ui 构建的精致开关组件。
+- [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - 将 Clerk 的 SignIn/SignUp 组件与 shadcn/ui 样式同步。
+- [drop-drawer](https://github.com/jiaweing/DropDrawer) - 桌面端为下拉菜单，移动端为抽屉。
+- [capture-photo](https://github.com/UretzkyZvi/capture-photo) - 基于浏览器的 React 组件，用于 Web 应用中的摄像头功能。
+- [audio-ui](https://github.com/ouestlabs/audio-ui) - 一套无障碍且可组合的音频 UI 组件。基于 shadcn/ui 构建，专为复制、粘贴和拥有而设计。
+- [nextjs-dnd](https://github.com/sujjeee/nextjs-dnd) - 使用 Next.js 和 dnd-kit 实现可排序拖放。
+- [confirm-dialog](https://github.com/Aslam97/react-confirm-dialog) - 使用 shadcn/ui 构建的确认对话框组件。
+- [search-address](https://github.com/UretzkyZvi/search-address) - 使用 OpenStreetMap 的交互式地址搜索。
+- [framecn](https://github.com/shadcn-labs/framecn) - 精美视频，简单易用。即用型、可定制的 React 视频组件。
+- [ktui](https://github.com/keenthemes/ktui) - 面向 Tailwind CSS 和原生 JavaScript 的开源可定制 UI 组件集合。
+- [crypto-charts](https://github.com/jstnw10/crypto-charts) - 使用 PythNetwork 为 shadcn/ui 制作的加密货币图表。
+- [calendar-cn](https://github.com/vmnog/calendarcn) - 受 Notion Calendar 启发，使用 shadcn/ui 和 Tailwind CSS 构建的精美日历组件。支持周视图、深色模式等。
+- [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - 基于 shadcn/ui 和 Downshift 构建的 Combobox/自动完成组件。
+- [image-upload-shadcn](https://github.com/kushagrasarathe/image-upload-shadcn) - 图片上传组件。
+- [uiable](https://github.com/codedthemes/uiable) - UIAble 是一个免费、开源的 UI 系统，通过生动的设计系统、可复用的 React 组件和完整的代码所有权扩展了 shadcn/ui。
+- [scificn-ui](https://github.com/baxy5/scificn-ui) - 复古科幻 UI 设计系统，灵感来自经典星舰控制台和外星计算机终端，包含模块化 HUD 组件、霓虹数据网格、战术面板和电影界面元素，融合了 70-80 年代未来主义与现代可用性。
+- [cascader-shadcn](https://github.com/Ademking/cascader-shadcn) - 用于选择层级数据（如位置、类别或组织结构）的级联下拉菜单组件。
+- [progress-button](https://github.com/tomredman/ProgressButton) - 带进度 UX 的扩展按钮组件。
+- [guarahooks](https://github.com/h3rmel/guarahooks) - 一个免费、开源的 React Hooks 集合，你可以复制粘贴到你的应用中。
+- [next-stepper](https://github.com/ebulku/next-stepper) - 使用 Next.js 和 zustand 实现动态多步骤表单。
+- [hook-again](https://github.com/ilyichv/hookagain) - 一组可安装的 shadcn/ui React Hooks。
+- [glasscn-ui](https://github.com/itsjavi/glasscn-ui) - shadcn/ui 组件库，包含玻璃拟态变体和许多附加组件。
+- [eo-n-ui](https://github.com/aeonzz/eo-n) - 基于 shadcn 的坚实基础构建的增强 UI 组件，集成 Base UI 和 Tailwind CSS，提供现代且可定制的设计系统。
+- [shadcn-data-table-advanced-col-opions](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) - 支持列宽调整的 DataTable。
+- [shadcn-spinner](https://github.com/allipiopereira/shadcn-spinner) - 加载指示器组件。
+- [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - 拖放表格组件。
+- [mindmapcn](https://github.com/SSShooter/mindmapcn) - 精美思维导图，与 shadcn/ui 无缝协作。
+- [shadcn-carousel-testimonials](https://github.com/johanguse/shadcn-carousel-testimonials) - 轮播图推荐组件。
+- [recursive-dnd-kanban-board](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) - 递归拖放看板。
+- [manfromexistence-ui](https://github.com/manfromexistence/ui) - 用于构建精美设计的组件。
+- [shadcn-pricing-page](https://github.com/aymanch-03/shadcn-pricing-page) - 带切换开关的响应式定价组件。
+- [shadcn-extends](https://github.com/lucioew28/extends) - shadcn/ui 组件集合。
+- [linked-chart](https://github.com/ardasisbot/linked-chart) - 与数据表格关联的图表组件。
+- [nextjs-multi-image-upload](https://github.com/jacksonkasi0/nextjs-multi-image-upload) - 紧凑、响应式文件上传器，支持 shadcn/ui、React Hook Form 和云存储（S3/R2）。
+- [user-tour-kit](https://github.com/domidex01/tour-kit) - MIT 许可的无头引导套件——包含导览、提示、清单、微调查和公告。基于 Radix UI，提供 shadcn/ui 友好的默认设置。
+- [react-pdf-flipbook-viewer](https://github.com/mohitkumawat310/react-pdf-flipbook-viewer) - 支持缩放和全屏的 PDF 翻页书查看器。
+- [simplekit](https://github.com/vaunblu/SimpleKit) - 用于 Wagmi 的钱包和账户组件。
+- [trable-craft](https://github.com/jacksonkasi1/TableCraft) - 由 Drizzle ORM 驱动的表格引擎，可根据您的 schema 自动生成表格。基于 TanStack Table 构建，支持服务端过滤、排序、分页、搜索、导出和 URL 状态同步。
+- [shadcn-dropzone](https://github.com/janglad/shadcn-dropzone) - 使用 React-Dropzone 构建的文件上传组件，注重无障碍性。
+- [adapttable](https://github.com/orwa-mahmoud/adapttable) - 一次导入即可使用的 shadcn/ui 数据表格——URL 同步状态、带标签的声明式过滤器、列管理和虚拟化。无样式核心预接 shadcn 类预设。
+- [floating-dragable-card](https://github.com/nishansanjuka/react-drag-card) - 使用 shadcn/ui 元素的可拖拽和可调整大小的卡片。
+- [supercharged-shadcn-components](https://github.com/slickwit/supercharged-shadcn-components) - 类型安全的表单组件集合。
+- [supabase-shadcn-database-example](https://github.com/thisisfel1x/supabase-shadcn-database-example) - supabase + shadcn/ui 数据表格。
+- [creatorem-ui](https://github.com/creatorem/ui) - 缺少基于 radix primitives 和 motion 构建的出色 shadcn 组件（如 Tour、Stepper、QRCode Motion Dialog，用于模拟原生行为）。
+- [billui](https://github.com/commet-labs/billui) - 基于 Shadcn 构建的开源 React 计费组件。定价卡片、支付方式、发票历史等。
+- [shadcn-drag-and-drop-sort](https://github.com/crystaltai/shadcn-drag-and-drop) - 使用 dnd-kit 实现的不同宽度药丸标签的拖拽排序列表。
+- [shadcn-number-scrubber](https://github.com/camwebby/shadcn-react-number-scrubber) - 可拖拽的数字输入组件。
+- [tanstack-ui-table](https://github.com/drefahl/tanstack-ui-table) - 使用 @tanstack/table 和 shadcn/ui 构建的可自定义表格。
+- [calendar-schedular](https://github.com/gluer-space/calendar) - 基于 date-fn 和 shadcn-ui 构建的多用途日历组件
+- [shadcn-location-picker](https://github.com/brielov/shadcn-location-picker) - 简单的 Google 地图位置选择器。
+- [shadcn-packaged](https://github.com/anuoua/shadcn-packaged) - 这是一个 npm 包，无需 CLI 即可导出所有 shadcn/ui 组件，旨在简化使用。
+- [multi-selection](https://github.com/sherifawad/multi-selection-with-add-remove) - 使用高亮器管理多选功能。
+- [stateful-button](https://github.com/nanyx95/Stateful-Button-React) - 一个 shadcn/ui 按钮组件，在异步操作期间为加载/进度、成功和错误状态提供清晰的视觉反馈，并具备完整的可访问性支持。
+- [w3-kit](https://github.com/w3-kit/ui) - 一个全面的可访问 React 组件库，用于构建高质量的 Web3 应用和 dApp。
+- [pittaya-ui](https://github.com/pittaya-ui/ui-kit) - 完全开源的 React UI 库，由 TypeScript 和 Tailwind CSS 驱动。快速、可组合、生产就绪。
+- [carouselcn](https://github.com/mnove/carouselcn) - 为你的 React 应用复制粘贴轮播组件和示例
+- [kalyx](https://github.com/jiji-hoon96/kalyx) - 无头 React 日期选择器系列——单日期 / 范围 / 时间 / 日期+时间 / 月 / 年 / 周选择器，统一在一个组合 API 下。ISO 8601 UTC 值，IANA 时区安全，约 13.6 KB gzip。v1.0 RC。
+- [image-crop-field](https://github.com/JsCodeDevlopment/upload-crop-image) - 带有 shadcn/ui 的图片裁剪字段。此组件是 react-easy-crop 组件的封装。
+- [mrdoge-ui](https://github.com/mrdogeco/docs) - 适用于体育应用的开源组件。
+- [rivelle-ui](https://github.com/w3cproject/rivelle-ui) - Rivelle 是一个开源的 React 和 Next.js UI 库，提供可编辑组件、交互效果、可复用块和完整模板。仅安装所需部分，并完全拥有源代码。
+- [shadcn-stacked-progress-bar](https://github.com/JoachimBrasier/shadcn-stacked-progress-bar) - 用于 shadcn/ui 的可组合堆叠进度条，可在单条轨道中显示多种状态，支持可选图例、工具提示和无障碍语义。
+- [8starlabs-ui](https://ui.8starlabs.com) - 一套精美设计的组件，专为需要标准库中找不到的小众、高实用性 UI 元素的开发者打造。
+- [aceternity-ui](https://ui.aceternity.com/) - 复制粘贴最热门的 React 组件，无需担心样式和动画。
+- [agentcn](https://agentcn.vercel.app) - 生产就绪的代理，化繁为简。即用型、可定制的 AI 代理配方。基于 Eve 和 Flue 构建。
+- [agents-ui](https://livekit.io/ui) - Agents UI 是 LiveKit 的开源组件库，使用 React 和 shadcn 构建，用于设计语音代理界面。从生产就绪的默认值开始，然后自定义每个细节以匹配你的品牌。
+- [async-select](https://async.rdsx.dev) - 使用 shadcn/ui 构建的异步选择组件，支持防抖搜索。
+- [audiocn](https://audiocn.dev) - 以 shadcn 方式构建的 React 音频组件：电平表、可视化器、推子、旋钮、通道条、完整混音器、播放器和音垫。复制、粘贴，使其成为你的。
+- [autocomplete-select-shadcn-ui](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) - 使用 shadcn/ui 和 Maximilian Kaske 的 Fancy Multi Select 构建的自动补全组件。
+- [billingsdk](https://billingsdk.com/) - 来自 Dodo Payments 的类型安全 React 计费和订阅管理组件，使用 TypeScript 和 Tailwind CSS 构建，可与 shadcn/ui 协同工作。
+- [buouui](https://buouui.com) - 基于 shadcn/ui 的 UI 组件库和模板套件，包含惊艳的落地页、模板和丰富的动画。
+- [clerk-elements](https://clerk.com/docs/elements/examples/shadcn-ui) - 用于在 Clerk API 之上构建自定义 UI 的可组合组件。
+- [colorshot](https://orshot.com/open-source/colorshot) - 适用于 React 和 Vue 的颜色与渐变选择器，使用你的 shadcn/ui 令牌进行主题化。
+- [data-command](https://shadcn.davidsling.in/components/data-command) - 用于构建由 API 数据驱动的动态命令面板的组件。
+- [date-time-picker-shadcn](https://shadcn-datetime-picker.vercel.app) - 为 shadNext 项目准备的日期时间选择器。
+- [date-time-range-picker-shadcn](https://date-time-range-picker.vercel.app/) - 功能齐全的日期时间范围选择器，支持多月份视图、时区、预设范围，以及用于日期和时间选择的模块化组件。
+- [datetime-picker](https://shadcn-datetime-picker-xi.vercel.app) - 支持时区、最小/最大日期以及月份/年份选择的日期时间选择器。
+- [diffs](https://diffs.com/) - @pierre/diffs 是一个开源的 diff 和代码渲染库，基于 Shiki 实现语法高亮和主题，高度可定制，功能丰富，由 The Pierre Computer Company 倾心打造。
+- [dotmatrix](https://dotmatrix.zzzzshawn.cloud/) - 55+ 个免费开源的加载器，基于 React、TypeScript、Tailwind CSS 和 shadcn 构建，安装一个、复制代码即可使用。
+- [extend-ui](https://www.extend-ui.com/) - 基于 shadcn/ui 构建的可复用 Web 应用组件。
+- [fancy-area](https://craft.mxkaske.dev/post/fancy-area) - 支持 @提及的文本域，灵感来自 GitHub 的 PR 评论区域。
+- [fancy-box](https://craft.mxkaske.dev/post/fancy-box) - 受 GitHub PR 标签选择器启发的组合框，使用 radix-ui 组件。
+- [fancy-multi-select](https://craft.mxkaske.dev/post/fancy-multi-select) - 受 campsite.design 和 cal.com 启发的多选组件。
+- [flightcn](https://flightcn.yencheng.dev/) - flightcn 是为 mapcn 生态系统构建的航班路线可视化组件集。
+- [glitchcn-ui](https://glitchcn-ui.vercel.app/) - 面向 Next.js 的终端风格赛博朋克组件库，具有扫描线效果、发光边框和等宽字体。
+- [gluestack-ui](https://gluestack.io) - 使用 Tailwind CSS 的 React 和 React Native 组件。
+- [goey-toast](https://goey-toast.vercel.app/) - React 的变形吐司通知，包含有机 blob 动画、Promise 跟踪和开箱即用的完全自定义。
+- [grid](https://grid.joohyunpark.com) - 一个为 React 和 Tailwind 设计的固执己见的网格系统
+- [inspira-ui](https://inspira-ui.com/) - 用于 Vue/NuxtJS 动画界面的 UI 组件。
+- [junwen-k-ui-x](https://ui-x.junwen-k.dev/) - 额外精美设计的组件，你可以复制粘贴到你的应用中。可访问。可定制。开源。
+- [kanban-board](https://shadcn-kanban-board.com/) - 一个基于 shadcn/ui 和 React & Tailwind CSS 构建的生产级看板：零依赖、拖放、键盘无障碍和流畅的主题。
+- [kibo-ui](https://www.kibo-ui.com/overview) - Kibo UI 旨在成为一个更全面的组件库，可用于构建更复杂的应用。
+- [kokonut-ui](https://kokonutui.com/) - 适用于 Next.js 的免费现代可定制组件。
+- [launch-ui](https://www.launchuicomponents.com/) - 使用 React、Shadcn/ui 和 Tailwind 构建的落地页组件。
+- [lukacho-ui](https://ui.lukacho.com/components) - 下一代 UI 组件。
+- [magicui](https://magicui.design) - 使用 tailwindcss + framer motion 的落地页 React 组件。
+- [manifest-ui](https://ui.manifest.build) - 用于 ChatGPT 应用和 MCP 应用的组件。
+- [marmo-ui](https://marmoui.com) - 结合 MCP Server 的应用 React 组件。
+- [modal-control-query](https://shadcn.davidsling.in/hooks/use-modal-control-query) - 使用查询参数控制 shadcn 模态组件的 Hook。
+- [mvpblocks](https://blocks.mvp-subha.me) - 复制粘贴精美、响应式组件，无需担心样式或动画。更快构建，更早发布。
+- [mynaui](https://mynaui.com/) - 适用于 Figma 和 React 的 TailwindCSS 和 shadcn/ui UI 套件。
+- [nextjs-components](https://components.bridger.to/) - 使用 TypeScript 和 shadcn/ui 的 Next.js 组件。
+- [nextjs-link-pagination](https://shadcn-next-link-pagination.vercel.app) - 使用 Next.js Links 和搜索参数实现分页。
+- [nexus-ui](https://nexus-ui.dev/) - 开源组件库，提供可组合、可复制粘贴的原语，用于构建 AI 界面（聊天、语音、代理）。
+- [niko-table](https://niko-table.com/) - 基于 TanStack Table 构建的 shadcn/ui 可组合数据表。支持多列排序、AND/OR 过滤、万行以上虚拟化、列固定/调整大小、行/列拖放、CSV 导出，以及带内联单元格编辑的可编辑 DataGrid 变体。仅复制你需要的注册表片段。
+- [origin-ui](https://originui.com/) - 使用 Tailwind CSS 和 Next.js 的精美 UI 组件。
+- [otf-ui](https://otf-kit.dev/components) - 215+ 跨平台组件，适用于 Next.js（Radix + Tailwind v4）和 Expo（Tamagui），共享同一 API。MIT 许可。
+- [password-input](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) - shadcn/ui 自定义密码输入框。
+- [phone-input-shadcn-ui](https://www.armand-salle.fr/post/phone-input-shadcn-ui) - 带 shadcn/ui 的自定义电话号码组件。
+- [pie-menu](https://piemenu.jpmarqu.es) - 一个用于 shadcn/ui 的径向饼图菜单组件：按下、拖向某个项目并释放，支持完整键盘操作，并提供无头原语。
+- [plate-select-editor](https://platejs.org/docs/multi-select) - 丰富的多选编辑器。
+- [re-ui](https://reui.io/) - 开源 UI 组件和动画效果集合，使用 React、TypeScript、Tailwind CSS 和 Motion 构建。与 shadcn/ui 完美搭配。
+- [react-highlight-popover](https://react-highlight-popover.omsimos.com) - 用于文本选择弹出框的无头组件。
+- [react-select](https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4) - 带 shadcn 样式的 React-select 库。
+- [react-wheel-picker](https://react-wheel-picker.chanhdai.com) - 适用于 React 的 iOS 风格滚轮选择器，支持平滑惯性滚动和无限循环。
+- [remocn](https://www.remocn.dev/) - 在 React 中构建产品演示、更新日志和发布视频。开源且极其简单。
+- [retro-ui](https://retroui.dev) - 受新粗野主义设计系统启发的开源组件库。
+- [shadcn-blocks](https://ui.shadcn.com/blocks) - 官方预制的可定制组件。
+- [shadcn-cal](https://shadcn-cal-com.vercel.app/?date=2024-04-29) - 使用 shadcn/ui 复刻的 Cal.com 月历。
+- [shadcn-calendar-heatmap](https://shadcn-calendar-heatmap.vercel.app/) - 现代日历热力图替代方案。
+- [shadcn-chatbot-kit](https://shadcn-chatbot-kit.vercel.app/) - 可定制的聊天机器人组件。
+- [shadcn-color-picker](https://shadcn-color-picker.vercel.app/) - 使用 react-color 的颜色选择器。
+- [shadcn-country-dropdown](https://shadcn-country-dropdown.vercel.app/) - ISO 3166 国家选择下拉框。
+- [shadcn-date-picker](https://date-picker.luca-felix.com) - 功能丰富的高级日期选择器。
+- [shadcn-event-calendar](https://shadcn-event-calendar.vercel.app) - 一个美观且灵活的事件日历组件，灵感来自 Google Calendar 和 Notion，基于 Shadcn UI、TailwindCSS 和 Framer Motion 构建。
+- [shadcn-examples](https://shadcnexamples.com) - 数十个高级 shadcn/ui 示例。轻松将示例应用和组件集成到你的项目中。
+- [shadcn-font-picker](https://shadcn-font-picker.vercel.app) - 使用 shadcn/ui 组件和 Google Font API 的字体选择器。
+- [shadcn-google-maps](https://shadcn-google-maps.vercel.app/) - 使用 AutocompleteSuggestion（Places API New）为 shadcn/ui 提供 Google Places 地址自动补全，支持会话令牌和类型化地点结果。
+- [shadcn-hooks](https://shadcn-hooks.com/) - 一个使用 Shadcn 构建的全面 React Hooks 集合。
+- [shadcn-iconpicker](https://icon-picker.alan-courtois.fr/) - 使用 lucide 图标的 React/shadcn 简易图标选择器。
+- [shadcn-map](https://shadcn-map.vercel.app/) - 使用 Leaflet 和 React Leaflet 为 shadcn/ui 构建的地图组件。
+- [shadcn-tanstack-form](https://shadcn-tanstack-form.felipestanzani.com/) - 无缝的 shadcn TanStack 表单组件集。功能完备，支持验证和类型安全。
+- [shadcn-ui-blocks](https://shadcn-ui-blocks.vercel.app/) - 响应式 UI 块集合。
+- [shadcncraft](https://shadcncraft.com/components?filter=free) - 使用生产就绪的 shadcn/ui 设计系统加速开发。获取完全匹配的 Figma UI 套件、React 组件以及数百个为真实产品构建的 UI 模块。
+- [shieldcn](https://shieldcn.dev) - Shields.io 的替代方案，通过 Satori 将 GitHub 徽章渲染为 shadcn/ui 按钮组件。支持 npm、GitHub、Discord、Reddit 徽章，支持深色/浅色模式、6 种变体和 40k+ 图标。
+- [shuip](https://shuip.plvo.dev/docs) - 提供即用型、面向业务的组件，帮助您更快交付。
+- [siddz-ui](https://siddz.com/components) - 精选的现代、可复用 React 组件集合。注重性能和可访问性。复制、粘贴并自定义。
+- [simple-ai](https://simple-ai.dev) - 用于轻松构建 AI 应用的组件和块。
+- [simple-image-uploader](https://simple-image-uploader-bice.vercel.app/) - 支持拖放、验证和预览的图片上传器。
+- [snapcn](https://snapcn.dev) - 为 Remotion 打造的视频组件，外观如同软件界面。包含 AI 回答流、终端会话、设备框架、字幕和完整场景。
+- [solanauth](https://solanauth.vercel.app/) - Solana 钱包认证弹窗。
+- [svelte-image-uploader](https://svelte-image-uploader.vercel.app/) - 支持拖放、验证和预览的 Svelte 图片上传器。
+- [termcn](https://termcn.vercel.app/) - 美观的终端 UI，化繁为简。即用型、可自定义的 React 终端 UI 组件。
+- [tool-ui](https://www.tool-ui.com/) - 美观、即用型的 AI 工具调用和 MCP UI 组件。
+- [tour](https://onboarding-tour.vercel.app) - 用于构建引导式导览的组件。设计为与 shadcn/ui 集成。
+- [trees](https://trees.software/) - @pierre/trees 是一个开源文件树渲染库。它专为性能和灵活性而构建，高度可定制，并附带丰富功能。由 The Pierre Computer Company 倾心打造。
+- [trophy-ui](https://ui.trophy.so) - 开源游戏化 UI 组件，涵盖连续打卡、成就、排行榜、积分等。基于 shadcn/ui 和 Tailwind CSS 构建。
+- [tweet-to-code](https://tweet-to-code.vercel.app/) - 将 Twitter 设计重现为代码。
+- [ui-flexnative](https://ui.flexnative.com) - 一组可自定义的 UI 区块，带有交互式实时预览。
+- [ui-layouts](https://www.ui-layouts.com/) - UI Layouts 不仅仅是一个库。它是一个完整的工具包，包含组件、效果、设计工具和即用型区块，可更快地构建现代界面所需的一切。
+- [vaul](https://vaul.emilkowal.ski/) - React 的抽屉组件。
+- [vyoma-ui](https://vyomaui.design/) - 基于 shadcn/ui 构建的精美组件，内含空间智慧。真正超越 UI。
+- [warcraftcn](https://www.warcraftcn.com/) - 一组受经典《魔兽争霸 III》RTS UI 美学启发的组件。
+- [zepa-ui](https://zepa.design/) - zepa 是一个不断增长的精选 UI 组件、英雄区块和动效系统集合，适用于 React 和 Next.js。可复制粘贴、完全可定制、免费且开源。
+:::
+
+::: masonry
+## 移植版本
+- [vue-shadcn-vue](https://github.com/radix-vue/shadcn-vue) - shadcn/ui 的 Vue 移植版。
+- [svelte-shadcn-svelte](https://github.com/huntabyte/shadcn-svelte) - shadcn/ui 的 Svelte 移植版。
+- [react-native-react-native-reusables](https://github.com/mrzachnugent/react-native-reusables) - shadcn/ui 的 React Native 移植版（推荐）。
+- [angular-spartan](https://github.com/goetzrobin/spartan) - shadcn/ui 的 Angular 移植版。
+- [flutter-shadcn-ui](https://github.com/nank1ro/shadcn-ui) - shadcn/ui 的 Flutter 移植版。
+- [go-shadcn-templ](https://github.com/axadrn/shadcn-templ) - shadcn/ui 的 Go 和 templ 移植版。
+- [react-native-nativecn-ui](https://github.com/Mobilecn-UI/nativecn-ui) - shadcn/ui 的 React Native 移植版。
+- [react-aria-jolly-ui](https://github.com/jolbol1/jolly-ui) - 兼容 shadcn/ui 的 React Aria 组件。
+- [phoenix-liveview-salad-ui](https://github.com/bluzky/salad_ui) - shadcn/ui 的 Phoenix LiveView 移植版。
+- [ruby-shadcn-rails](https://github.com/aviflombaum/shadcn-rails) - shadcn/ui 的 Ruby 移植版。
+- [solid-shadcn-solid](https://github.com/hngngn/shadcn-solid) - shadcn/ui 的 Solid 移植版。
+- [net-shadui](https://github.com/accntech/shad-ui/) - shadcn/ui 的 Avalonia 移植版，基于 SukiUI。
+- [mkdocs-mkdocs-shadcn](https://github.com/asiffer/mkdocs-shadcn) - shadcn/ui 的 MkDocs 移植版。
+- [swift-swiftcn-ui](https://github.com/Mobilecn-UI/swiftcn-ui) - shadcn/ui 的 Swift 移植版。
+- [kotlin-shadcn-kotlin](https://github.com/dead8309/shadcn-kotlin) - shadcn/ui 的 Kotlin 移植版。
+- [rust-ouroboros-ui](https://github.com/Type-zero-labs/ouroboros-ui) - shadcn/ui 设计语言的原生 Rust/egui 移植版。Token 优先，通过治理测试在原始值上使构建失败。提供实时 wasm storybook。
+- [react-native-tetra-ui](https://github.com/Liamandrew/tetra-ui) - 为 React Native 提供简洁、可访问且现代的组件库，带来愉悦的组件体验。
+- [basecoat](https://basecoatui.com) - shadcn/ui 的 Vanilla HTML、CSS 和 JS 移植版。
+- [blazor-simple-ui](https://sysinfocus.github.io/shadcn-inspired/) - 受 shadcn/ui 启发的 Blazor Razor 组件库。
+- [flutter-forui](https://forui.dev/) - Forui 是一个深受 shadcn/ui 启发的 Flutter UI 库。
+- [franken-ui](https://www.franken-ui.dev/) - HTML 优先、框架无关、设计精美的组件，你可以真正复制粘贴到你的网站中。可访问。可定制。开源。
+:::
+
+::: masonry
+## 工具
+- [invoify](https://github.com/aliabb01/invoify) - 使用 Next.js、TypeScript 和 shadcn/ui 构建的发票生成器应用。
+- [ui-builder](https://github.com/olliethedev/ui-builder) - 一个 React 组件编辑器，提供无代码的可视化 UI 创建方式，完全兼容 shadcn/ui 和自定义组件。
+- [form-builder](https://github.com/AlandSleman/FormBuilder) - 基于 UI 的代码生成工具，可轻松创建美观且类型安全的 @shadcn/ui 表单。
+- [shadcn-zod-form](https://github.com/ilyichv/shadcn-zod-form) - 从 Zod 模式生成 shadcn/ui 表单的 CLI 工具。
+- [quack-db](https://github.com/mattf96s/QuackDB) - 开源的浏览器内 DuckDB SQL 编辑器。
+- [bento-hub](https://github.com/amittam104/BentoHub) - BentoHub 是一个应用程序，你可以为你的 GitHub 个人资料 README 创建 bento 网格。
+- [registry-directory](https://github.com/rbadillap/registry.directory) - 一个精选目录，用于发现、预览和复制 shadcn/ui 注册表。
+- [proxmox-helper-scripts](https://github.com/BramSuurdje/proxmox-helper-scripts) - 一个用于 Proxmox VE 家庭实验室的脚本目录，基于 Next.js App Router 构建，并使用 shadcn/ui 进行样式设计。
+- [shadcn-play](https://github.com/ephraimduncan/shadcn-play) - 一个用于构建和预览 shadcn/ui 组件的游乐场，带有实时编辑器。
+- [sharable-form-builder](https://github.com/ayoubben18/sharable-form-builder) - 一个可共享的表单构建器，用于创建表单并分享表单链接，基于 shadcn/ui 和 Next.js。
+- [memi](https://github.com/sarveshsea/memi) - 面向 shadcn/ui 和 Tailwind 的代理设计 CI：聚焦的代理技能、UI 审计、令牌提取、组件脚手架、可访问性检查和文件锚定的质量门。
+- [sweep](https://github.com/Johuniq/sweep) - Sweep 是一款为设计师和开发者打造的现代开源渐变生成器。创建精美的线性与径向渐变，支持实时预览、噪点/模糊效果，并可导出为 CSS、Tailwind、SVG 或 JPG。永久免费，无需注册。
+- [create-next-shadcn-kit](https://github.com/NikunjSonigara/create-next-shadcn-kit) - 用于搭建生产级 Next.js 应用的 CLI，包含 shadcn/ui、Tailwind CSS、可选状态管理（Redux Toolkit/Zustand），以及预配置工具（如 Husky）。
+- [create-react-shadcn-kit](https://github.com/NikunjSonigara/create-react-shadcn-kit) - 用于搭建生产级 React (Vite) 应用的 CLI，包含 shadcn/ui、Tailwind CSS v4、可选的 Redux Toolkit/Zustand，以及预配置工具（如 Husky 和 TypeScript）。
+- [onsystem](https://github.com/dgesteves/onsystem) - 零配置让编码代理遵循 shadcn/ui 项目的设计系统：一个 MCP 服务器，包含其组件、cva 变体、令牌和文档，外加一个 linter，用于标记代理编写 UI 中的十六进制颜色、超规格间距、虚构组件或变体以及原生元素。
+- [5devs](https://www.5devs.com.br/) - 获取用于测试目的的虚假巴西数据的网站。
+- [blockdex](https://blockdex.thecompound.tech) - 跨公共 shadcn/ui 注册表的项目级搜索，显示每个组件的安装命令、依赖项，以及它是免费、付费还是不再可用。
+- [cheatsheet](https://shadcnstore.com/docs/cheatsheet) - 一个全面的 shadcn/ui 组件交互式参考，包含实时预览、代码示例和即时复制功能。
+- [compify](https://compify.app) - 开源 CLI，将选定的 React Storybook 故事打包成可审查的 shadcn 注册表项，带有公共组件注册表和托管编辑器，提供基于付费积分的计划。
+- [cv-forge](https://cvforge.app) - 基于 @shadcn/ui、react-hook-form 和 react-pdf 构建的简历生成器。
+- [envin](https://envin.turbostarter.dev) - 框架无关、类型安全的工具，用于验证和预览环境变量，由你喜欢的 schema 验证器驱动。
+- [form-builder-fast](https://ui.indie-starter.dev/form-builder) - Shadcn 表单构建器——免费在几分钟内构建表单。
+- [graphitup](https://graphitup.com/tools) - 创建免费可下载的 Shadcn 主题图表图片。支持 PNG、JPEG、WEBP，甚至 WEBM 视频。上传你自己的数据以获得更真实的设计。
+- [img2m3](https://img2m3.vercel.app/studio) - 一个开发者工具，自动化创建连贯、可访问的设计系统的过程。它弥合了 Google Material Design 3 算法与现代 Tailwind CSS v4 生态系统之间的差距。
+- [imgsrc](https://imgsrc.io/) - 零成本生成精美的 Open Graph 图片。
+- [keygen](https://keygen-omega.vercel.app/) - KeyGen 是一个客户端实用程序套件，直接在浏览器中生成安全密码、API 密钥和框架特定的密钥（如 Django 或 Laravel 密钥）。由于它使用原生 Web Crypto API，无需服务器端处理，因此是一种安全的方式，可为开发和基础设施配置创建敏感凭据，而不会将其暴露到网络中。
+- [open-ui](https://www.openui.com/) - 生成式 UI 的开放标准
+- [pagegen-ai](https://pagegen.ai) - 一个使用 Claude AI、React 和 shadcn/ui 的 AI 页面生成器。通过文本、截图和模板一键生成网页。
+- [shadcn-builder](https://www.shadcn-builder.com/?utm_source=github&utm_content=awesome-shadcn-ui) - 使用易于使用的表单构建器创建美观、响应式的表单，并使用 shadcn/ui 组件生成 React 代码。
+- [shadcn-easy-install](https://shadcn-easy-install.vercel.app/) - 轻松安装所有 shadcn 组件。一键安装所有选中的组件。
+- [shadcn-pricing-page-generator](https://shipixen.com/shadcn-pricing-page) - 使用 shadcn/ui、Radix UI 和/或 Tailwind CSS 获取 React 定价页面的最简单方式。
+- [shadcn-table-maker](https://shadcn-table-maker.vercel.app/) - 用于创建动态表格的工具。
+- [shadscan](https://shadscan.com) - 针对 shadcn 应用的确定性 UI 审计，专为终端、CI 和 AI 代理构建。对可访问性、UI 状态、导航、表单、元数据和生产打磨进行评分，并附有引用证据和代理可用的修复方案。
+- [shoogle](https://shoogle.dev/) - 一个 shadcn 搜索引擎
+- [tancn](https://tancn.dev/) - 使用 TanStack 技术轻松构建强大的表单和表格
+- [ui-fonts](https://www.uifonts.app/) - 实时测试和预览字体，满足所有设计需求。轻松选择完美的字体。
+- [v0](https://v0.dev/) - Vercel 的生成式 UI 系统，基于 shadcn/ui 和 TailwindCSS，支持从文本提示和/或图像轻松生成 UI。
+:::
+
+::: masonry
+## 平台
+- [autoflow](https://github.com/pingcap/autoflow) - 使用 GraphRAG、TiDB 向量存储、LlamaIndex 和 DSPy 构建的开源对话式知识库应用。
+- [memfree](https://github.com/memfreeme/memfree) - 开源混合 AI 搜索引擎，可即时从互联网、书签、笔记和文档中获取准确答案。使用 Next.js 和 shadcn/ui 构建。
+- [jobsync](https://github.com/Gsync/jobsync) - JobSync 是一个求职者助手，用于高效管理求职过程。
+- [atomic-crm](https://github.com/marmelab/atomic-crm) - 开源 CRM，使用 React、shadcn-admin-kit 和 Supabase 构建，用于管理联系人、任务、笔记和销售管道。
+- [opensearch-ai](https://github.com/supermemoryai/opensearch-ai) - SearchGPT/Perplexity 克隆，但为你个性化。
+- [big-calendar](https://github.com/lramos33/big-calendar) - 一个现代、功能丰富的日历应用，提供多种查看选项，使用 Next.js、TypeScript 和 Tailwind CSS 构建。
+- [someday](https://github.com/rbbydotdev/someday) - 免费托管且开源的 Cal.com/Calendly 替代方案，基于 Google Apps Script 构建，面向 Gmail 用户。
+- [veritas-kanban](https://github.com/BradGroux/veritas-kanban) - 自托管看板，集成 AI 代理、时间跟踪，并拥有 1,255 项测试。基于 React 19、Vite 6、TanStack Query、dnd-kit 和 shadcn/ui 构建。
+- [infinitunes](https://github.com/rajput-hemant/infinitunes) - 一个简单的音乐播放器 Web 应用，使用 Next.js、shadcn/ui、Tailwind CSS、Drizzle ORM 等构建。
+- [stocks](https://github.com/aryanvichare/stocks) - 使用 Next.js 图表的股票选择器。
+- [cut-it](https://github.com/mehrabmp/cut-it) - 使用 Next.js App Router、Server Actions、Drizzle ORM、Turso 构建的链接缩短器，并使用 shadcn/ui 进行样式设计。
+- [kd](https://github.com/gneiru/kd) - 无广告的韩剧流媒体应用。使用 Next.js、Drizzle ORM、NeonDB 和 shadcn/ui 构建。
+- [gooseforum](https://github.com/leancodebox/GooseForum) - 自托管论坛，包含基于 shadcn/ui 的讨论页面、管理控制台和明暗主题工作台，以单个 Go 可执行文件部署。
+- [typelabs](https://github.com/imsandeshpandey/typelabs) - 受 MonkeyType 启发的打字测试应用，核心基于 React、shadcn 和 Zustand。
+- [pastecode](https://github.com/Quorin/PasteCode.app) - 使用 TypeScript、Next.js、Drizzle、shadcn/ui 和 RSC 构建的 Pastebin 替代品。
+- [translate-app](https://github.com/developaul/translate-app) - 使用 TypeScript、Tailwind CSS、NextJS、Bun、shadcn/ui、AI SDK/OpenAI 和 Zod 构建的翻译应用。
+- [anonypost](https://github.com/avalynndev/anonypost) - 通过平台匿名发布内容，分享你的想法和经历。使用 t3-stack 构建。
+- [openhive](https://github.com/arseneHuot/openhive) - 开源、自托管的 Slack 替代品，支持频道、私信、线程、表情回应、文件上传和音视频通话。基于 Next.js、Supabase、Zustand 和 shadcn/ui 构建。
+- [multiboard](https://github.com/olliethedev/multiboard) - 极简看板平台。使用 Better-Auth、Next.js、ZenStack、Prisma 和 shadcn/ui 构建。
+- [memergez](https://github.com/avalynndev/memergez) - 通过输入文本或头像 URL 快速生成表情包，支持多种表情包命令。
+- [wallhaven-desktop](https://github.com/ErKeLost/wallhaven-desktop) - Wallhaven 壁纸桌面软件。创建基于 Wallhaven API 的客户端，一款真正的壁纸软件。
+- [mix-cn](https://github.com/melromyeah/MixCN) - 使用 shadcn 构建的全功能 DJ 控制台应用。
+- [s5arc-ecommerce-platform](https://github.com/S5SAJID/next-dashcommerce) - S5ARC 是一个开源、多租户的电商 SaaS 平台，旨在帮助非技术创始人快速上线在线商店，基于 shadcn 和 nextjs 等构建。
+- [focus-brew](https://github.com/yaakovcarioca/focus-brew) - 一个免费的生产力工具包，结合了基本工具，帮助你在整个工作日保持专注、有序和高效。
+- [auditzap](https://auditzap.io) - AI 驱动的网站审计工具，对 SEO、性能和网站健康度执行 24 项检查，然后生成按收入影响排序的代码级修复说明。基于 Next.js 16、shadcn/ui、Tailwind CSS 4 和 Drizzle ORM 构建。
+- [citeme](https://citeme.app) - AI 驱动的学术引文生成器。搜索 11+ 个数据库，并支持 40+ 种格式（APA、ABNT、MLA 等）。提供 Web 应用、Chrome 扩展、Google Docs 插件和 Word 插件。
+- [codeotter](https://codeotter.io) - 开源、自托管的 AI 拉取请求审查工具，适用于 GitHub、Forgejo 和 Gitea，可为 PR 评分并强制执行合并门禁，附带基于 shadcn/ui 构建的 React 仪表盘。
+- [country-data-in-charts](https://globe-graph.vercel.app/) - Globe Graph 是一个 Web 应用，使用多种图表可视化各国数据，如 GDP、人均 GDP 和不同年份的人口。
+- [grade-calculator](https://grades.nstr.dev/) - 面向学生的成绩计算器/仪表盘，旨在提供更清晰的学业表现概览。
+- [keyzen](https://keyzen.theshiva.xyz/) - KeyZen 是一个小型的副项目：一个干净、基于浏览器的打字速度测试，用于练习和娱乐。它是开源的，可免费使用或分叉。
+- [pdfmavericks](https://pdfmavericks.com/) - 40+ 款免费浏览器端 PDF 工具（压缩、合并、拆分、签名、水印、编辑、OCR、转换），客户端处理——文件不会离开设备。基于 Next.js 15 App Router、shadcn/ui 和 Tailwind CSS 构建。
+- [plotwist](https://plotwist.app/en-US) - 使用 Next.js、Tailwind CSS、Supabase 和 shadcn/ui 轻松管理和评论你的电影、剧集和动漫。
+- [vercel-status-tracker](https://vercel-status-tracker.vercel.app) - 跟踪所有通过 Vercel 部署的项目状态。使用 shadcn/ui 和 TailwindCSS 构建。
+- [xeramail](https://xeramail.com) - 临时邮箱服务，基于 Next.js 和 shadcn/ui 构建，提供快速收件箱访问、现代 UI 以及对一次性邮件的更好控制。
+- [xquik](https://xquik.com) - 一体化 X 自动化平台，提供 40+ 工具、REST API、MCP 服务器和 HMAC Webhooks。基于 Next.js、shadcn/ui 和 Tailwind CSS 构建。
+- [youropinion-is](https://youropinion.is/news/202505-match-my-style) - 免费调查平台，支持导入你现有的 shadcn/ui 主题。
+:::
+
+::: masonry
+## 注册表
+- [data-table-filters](https://github.com/openstatusHQ/data-table-filters) - shadcn/ui 的数据表格区块，支持分面过滤、排序、无限滚动和行详情抽屉，可通过 shadcn CLI 以可编辑源码形式安装。
+- [shadcn-space](https://github.com/shadcnspace/shadcnspace) - 开源的 shadcn/ui 块、组件和模板，基于 React、Tailwind 和 Base UI 构建。
+- [neobrutalism-vue](https://github.com/michaelsieminski/neobrutalism-vue) - 基于 Vue 的新粗野主义风格 Tailwind 组件注册表。
+- [dashboardblocks](https://github.com/LGLabGreg/dashboardblocks) - shadcn/ui 的开源仪表盘区块，包括 KPI、图表、表格和完整仪表盘，可通过 shadcn CLI 为 Radix UI、Base UI 和 React Aria 安装。
+- [shadcnship](https://github.com/arnaudvolp/shadcnship) - 生产就绪的 shadcn/ui 组件注册表，用于使用 Next.js、TypeScript 和 Tailwind CSS 构建现代 SaaS 应用。
+- [000h](https://cojeev.com/ui/) - MIT 许可的 shadcn 注册表，包含具有有机形状和可调节动效的 React 组件，涵盖核心 UI、图表、抽屉、文本效果、动画背景和 WebGL 雕塑。
+- [1st-pouf](https://1st-pouf.worksonmy.dev) - 一个开源的黏土拟态 UI 套件和 shadcn 风格的 React 注册表，包含为 Tailwind CSS 4 构建的可复用组件、区块和模板。
+- [21st-dev](https://21st.dev/) - 面向 shadcn/ui 组件的开源 npm。同时：面向设计工程师的 Dribbble。通过 shadcn CLI 安装 UI 组件，或发布你自己的组件。
+- [21st-dev-agent-elements](https://agent-elements.21st.dev) - 开源代理 UI 原语注册表——聊天外壳、工具调用卡片（Bash、Edit、Search、Todo、Plan）、澄清问题、输入栏、流式 Markdown。基于 React 19、Tailwind v4 和 Vercel AI SDK 构建。
+- [7ovr](https://7ovr.com/?utm_source=awesome-shadcn-ui&utm_medium=referral&utm_campaign=directory) - 基于 Base UI 构建的 shadcn/ui 块和完整页面模板注册表，可通过 shadcn CLI 安装；580+ 块中数百个免费，其余需付费 Pro 许可证。
+- [8bit-cnlibs](https://8bit.cnlibs.com/) - 对 shadcn/ui 组件的复古像素风格演绎，带有切角像素角和边框，基于 Base UI 构建，可从其自己的 shadcn 注册表安装，并提供 40+ 主题。
+- [8bitcn-com](https://www.8bitcn.com/) - 一套复古设计的无障碍组件和代码分发平台。开源。开放代码。
+- [approvals-ui](https://approvals-ui.vercel.app) - 用于 React Flow 的审批工作流组件：法定人数门槛、金额阈值、策略检查（职责分离、高价值单审批人），以及人工审核门控后的通俗语言编辑。以 shadcn 注册表形式分发。
+- [arc-ui](https://uiarc.dev) - 内置动画的 React 组件和块注册表，通过 shadcn CLI 从 @uiarc 命名空间安装；免费 MIT 许可集开源，其余目录需付费 Arc Pro 许可证。
+- [ascii-cnlibs](https://ascii.cnlibs.com/) - shadcn/ui 组件以等宽文本重新绘制，框架由单网格上的 ASCII 字符组成，基于 Base UI 构建，可从其自己的 shadcn 注册表安装。
+- [babelize-elements](https://elements.babelize.co) - MIT 许可的 shadcn 注册表，包含 React 本地化组件，包括语言切换器、区域感知的数字和相对时间格式化器、电话输入、本地化导航栏和翻译小部件，可通过 shadcn CLI 安装。
+- [beste-ui](https://ui.beste.co/) - shadcn/ui 注册表，包含可通过 shadcn CLI 或 MCP 安装的区块、片段和组件；片段、组件和部分区块在 MIT 许可下免费，而大多数区块和完整页面需要付费 Pro 许可。
+- [better-design](https://better-design.com) - 一个 shadcn 注册表，包含完整的设计系统，每个系统都带有自己的令牌和 200+ 组件，外加一个帮助编码代理选择和安装的 MCP 服务器；免费，提供付费 Pro 计划以获取私有品牌指南。
+- [blode-ui](https://blode.co/ui) - 一个开源的无障碍 React 组件注册表，基于 Base UI 和 Tailwind CSS v4 构建，可通过 shadcn CLI 安装。
+- [chanhdai-components](https://chanhdai.com/components) - 可复用组件集合。受信任的 shadcn/ui 注册表。
+- [creance](https://creance.pages.dev) - 用于监督 AI 代理的 React 组件，如审批提示、工具调用时间线、差异审查和终止开关，从各自的 shadcn 注册表安装为可编辑源代码。
+- [diarmuradi](https://www.diarmuradi.com/) - shadcn/ui 的 UI 块和模板注册表，包含免费块集合和付费的 Core 和 Complete 计划。
+- [dominik-ui](https://dominikkoch.dev/ui) - 用于构建现代网站和 AI 界面的固执己见的组件和工具。
+- [efferd](http://efferd.com/) - 即用型 shadcn 区块，开箱即用——现代、响应式，专为速度而构建。
+- [evex](https://evex.sh) - 开源 shadcn 注册表，包含适用于 Vercel Eve 框架的 AI 代理，可通过 shadcn CLI 安装到 Eve 应用中。
+- [facade-ui](https://facadeui.dev) - 开源注册中心，收录面向营销网站的可访问区块和页面模板——Hero 区、定价表、FAQ、页脚和完整落地页——基于 Base UI 和 Tailwind CSS v4 构建，通过 shadcn CLI 安装。
+- [hextaui](https://hextaui.com) - 面向 Base UI 上 shadcn/ui 的 React 组件、Hooks 和 AI 区块，从自有注册中心安装；组件免费且采用 MIT 许可证，另有付费 Pro 区块。
+- [interlace-ui](https://ds.interlace.tools) - Interlace 文档站点的设计系统注册表：主题基线、布局和可访问性原语，以及 MDX 组件。可通过 shadcn CLI 安装。
+- [jalco-ui](https://ui.justinlevine.me) - 精致、可组合的 React 组件，通过兼容 shadcn 的注册表分发。一条命令安装或直接复制源码。
+- [keyline-icons](https://keylineicons.com/) - MIT 许可的图标集，在 24×24 网格上以描边、双色、双调和填充样式绘制，带有圆角或直角，可通过 shadcn CLI 逐个图标安装。
+- [liquikit](https://liquikit.dev/) - MIT 许可的 shadcn 注册中心，包含 32 个基于 Base UI 的液态玻璃 React 组件，具备基于物理的折射效果，可在 Chrome、Safari 和 Firefox 中运行。
+- [localmode](https://localmode.ai) - 本地优先的 AI UI 注册表，包含 107 个可复制原语和 36 个组合区块（聊天、RAG、Whisper 转录、CLIP 图像搜索），完全在浏览器中运行，无需服务器或 API 密钥。可通过 shadcn CLI 安装。
+- [logoforge](https://logoforge.terravidhal.me) - 开源 shadcn 注册中心，收录 900+ 品牌 Logo 作为类型化 React 组件，支持自动暗色模式和单色变体，另含 Logo 云构建器和非洲品牌，可通过 shadcn CLI 安装。
+- [mischief-ui](https://ui.tinkererslabs.com) - 一个趣味十足、实用性强的 shadcn 注册表：PDF、DOCX 和 JSON 查看器，编辑遮盖与边界框，带工具调用的智能体聊天，数据表格，命令面板，OTP 输入框，以及着色器字段。
+- [more-shadcn](https://more-shadcn.noair.fun/) - 一个基于 shadcn-svelte 构建的、适用于 Svelte 5 的高质量复制粘贴组件集合。
+- [nasaq](https://nasaqui.com) - 开源 shadcn 注册中心，提供内置阿拉伯语和从右到左布局的 React 组件、主题和页面模板，另附 MCP 服务器。
+- [ns-ui](https://design.helpmarq.com) - 开源 React 组件注册表，每个组件围绕单一交互构建，涵盖 hero、动画背景、图表、加载器和表单控件，可通过 shadcn CLI 按 URL 安装。
+- [paceui](https://paceui.com/) - shadcn 注册表，包含 React 块、动效组件以及适用于 Next.js 和 TanStack Start 的模板，提供免费块和组件，以及付费的 Basic 和 Pro 许可证以获取完整目录。
+- [pastaui](https://pastaui.com) - MIT 许可的 shadcn 注册中心，包含 50+ 个面向 AI 和智能体界面的 React 组件，涵盖提示输入、模型选择器、文件差异和审批卡片，付费 Pro 版提供整页区块。
+- [payload-components](https://www.payload-components.xyz) - MIT 许可的注册表和 CLI，用于将 wired Payload CMS 区块安装到 Payload v3 和 Next.js 项目中。
+- [shadcn-io](https://shadcn.io) - 高级 Shadcn/UI 组件。
+- [shadcn-rjsf-form-builder](https://shadcn-rjsf-form-builder.noowah.dev/) - 一个用于 react-jsonschema-form 的 shadcn/ui 注册表，包含带主题的 JSON Schema 表单渲染器，以及带实时预览的拖放式可视化表单构建器。
+- [shadcn-store](https://shadcnstore.com) - 不断增长的 shadcn/ui 组件、区块和模板集合，用于基于 Base UI 构建现代 Web 应用。
+- [shadcn-studio](https://shadcnstudio.com/) - shadcn 组件和模块的开源注册表。
+- [signoff-ui](https://signoff-ui.vercel.app) - 用于审查智能体所做更改并批准其后续操作的 React 组件，可从自有 shadcn 注册中心或 npm 安装：支持多文件差异审查（逐块决策和行内评论）、基于规则的工具审批和运行遥测，适用于 AI SDK 和 AG-UI 智能体。
+- [skiper-ui](https://skiper-ui.com/) - 使用 shad-cn cli 构建的疯狂 UI 库，让您脱颖而出。
+- [skrewww](https://skrewww.com) - 开源 React 和 TypeScript 设计系统，提供与 shadcn 兼容的注册中心、令牌驱动的 Shape/Surface 模式，以及面向编码智能体的机器可读契约；配套 Figma 库免费，另有可选付费 Pro 版。
+- [soldevelo](https://registry.soldevelo.com) - MIT 许可的 shadcn 注册中心，收录 SolDevelo 开源项目（始于 OpenLMIS）中的组件、区块和页面模板，基于 Base UI 构建。
+- [sureui](https://sureui.com) - MIT 许可的 shadcn 注册中心，包含基于 Base UI 的确认组件，覆盖撤销、长按确认、输入确认、确认对话框和 AI 工具调用审批，可通过 shadcn CLI 以可编辑源码形式安装。
+- [tailark](https://tailark.com) - 用于构建现代营销网站的 Shadcn 区块。
+- [ui-nference-sh](https://ui.inference.sh/) - 一个 shadcn 注册表，包含用于构建 AI 驱动的应用、聊天机器人和 AI 代理界面的 React UI 组件。
+- [undraw-cn](https://undraw-cn.vaatun.com) - 适用于 unDraw 插画的美观、可定制 React 组件。
+- [upfork](https://upfork.dev) - shadcn 注册中心，提供动画 React 和 Tailwind CSS 组件及落地页（WebGL Hero 区、3D 轮播、Bento 网格），支持实时预览并附 MCP 服务器；少数组件在 MIT 许可下免费，大部分目录需付费 Pro 计划。
+- [uploadcn](https://uploadcn.dev) - MIT 许可的 shadcn 注册中心，包含文件上传组件和 58 个区块，支持可断点续传的 S3、R2 和 Cloudinary 上传，可安装到所有 shadcn 样式中。
+- [usva](https://usva.build/) - 基于 Base UI 构建的 React 组件库，提供三种主题（暗黑氛围、紧凑和明亮）共享同一套令牌，可通过其 shadcn 注册表或 npm 安装。
+- [wa-ui](https://ui.meta-cloud-api.site) - WhatsApp Web 聊天组件注册表——聊天气泡、消息输入、语音和媒体气泡，以及 Meta Business 消息模板——基于 WhatsApp 的 WDS 设计令牌构建，支持亮色和暗色模式。
+- [warren-ui](https://warren.eduard3v.com) - 面向运维和监控仪表盘的数据密集型仪表盘组件，如面板、迷你走势图、热力图、分类账和事件时间线。
+- [wds-registry](https://wds-shadcn-registry.netlify.app) - 一组可用于构建你自己的组件库的组件。
+- [wensity](https://ui.wensity.com) - 免费、MIT 许可的 React UI 原语、组件和动效，适用于 Next.js 和 Tailwind CSS v4，可通过单一设计令牌契约进行主题化；同时提供付费 Pro 目录。
+:::
+
+::: masonry
+## 动画
+- [motionvariants](https://github.com/chrisabdo/motionvariants) - 精美的 Framer Motion 动画。
+- [mixcnui](https://github.com/taqui-786/mixcnui) - 适用于 Next.js 的动画组件集合。
+- [forgeui](https://github.com/AmanShakya0018/forgeui) - 动画优先的 shadcn/ui 注册表，提供免费 motion 组件和 WebGL 背景，另有付费 Pro 版本解锁区块、模板和其余目录。
+- [animated-tabs](https://github.com/mehrdadrafiee/animated-tabs) - 类似 Vercel 的动画标签页。
+- [animated-header](https://github.com/mehrdadrafiee/animated-header) - 类似 Vercel 的动画头部。
+- [atelier-ui](https://github.com/whatisjery/atelier-ui) - 用于 React 和 Next.js 的 React Three Fiber 和 Motion 组件系统。基于共享画布和单一滚动循环构建的 WebGL 画廊、交互式光标、平滑滚动效果和页面过渡。
+- [shadcn-animated](https://github.com/sopo/shadcn-animated) - 动画 shadcn/ui 组件集合，包含实时示例和安装文档。
+- [motiq](https://github.com/RMahammad/motiq) - 无障碍、状态驱动的动画 React 组件和工作流区块，适用于 shadcn/ui，以可编辑源码形式安装。
+- [viberdy](https://github.com/viberdy-dev/ui) - 免费的 shadcn 注册表，包含 161 个动画 React 组件，涵盖 14 种设计风格，从玻璃拟态和极光到动态文字和抖动，可通过 shadcn CLI 从 GitHub 安装，每个组件都配有 AI 提示；付费 Pro 计划提供完整套件。
+- [aicanvas](https://aicanvas.me) - 可通过 shadcn CLI 安装的动画 React 和 Tailwind 组件及区块，提供 MIT 许可的免费库（CLI 安装需要免费账户）以及用于设计系统和模板的付费高级版。
+- [animata](https://animata.design) - 手工制作 ✍️ 的交互动画和效果，来自互联网 🛜，可复制粘贴到你的项目中。
+- [animate-ui](https://animate-ui.com/) - 一个完全动画化的开源 React 组件库。浏览可安装并在项目中使用的动画原语、组件和图标列表。
+- [beui](https://beui.dev/) - 基于 Framer Motion 和 Tailwind 构建的复制粘贴动画组件。免费且开源。
+- [bundui](https://bundui.io) - 使用 Tailwind CSS 和 Framer Motion 构建的可复用动画组件集合。
+- [crafterui](https://crafterui.com) - 用于 React 和 Tailwind 的动效和交互组件——3D 轮播、滚动字母揭示、Dynamic Island、光标命中测试和滚动倒计时——通过 shadcn CLI 安装并作为源代码拥有。
+- [cult-ui](https://www.cult-ui.com/) - 精选的动画 shadcn 风格 React 组件集。
+- [dy-comps](https://dycomps.oimmi.com/) - shacn/ui 和 Framer Motion React 组件——灵活、响应式，易于集成到任何项目中。
+- [eldora-ui](https://eldoraui.site/) - 免费开源的动画组件，基于 React、TypeScript、Tailwind CSS 和 Framer Motion 构建。
+- [fluid-functionalism](https://fluid-functionalism.vercel.app) - 精炼的 shadcn/ui 兼容组件，具备弹簧物理、邻近悬停和字重过渡效果。每个动画都有其功能用途。
+- [heroicons-animated](https://heroicons-animated.vercel.app/) - 一个包含 316 个精美动画 heroicons 的开源集合，适用于你的项目。
+- [hugeicons-animated](https://hugeicons-animated.com) - 开源 shadcn 注册表，包含手工动画的 Hugeicons React 图标，基于 Motion 构建，可通过 shadcn CLI 逐个图标安装为可编辑源代码。
+- [loading-ui](https://loading-ui.com/) - 精选的、易于复制的加载动画、加载器和加载状态动画，免费且开源。
+- [microkit](https://microkit.co) - 可复制粘贴的微交互——动画按钮、悬停效果、标签页和输入框——每个都带有实时预览和可复制的源代码（Tailwind 和纯 CSS），可通过 shadcn CLI 安装。
+- [motion-lexicon](https://motion-lexicon.pages.dev/en/) - 开源的 shadcn 注册表，包含动画 React 组件、页面块和运动原语，每个都带有实时预览和减少动画支持。
+- [number-flow](https://number-flow.barvian.me/) - 用于数字过渡和格式化的 React 组件。
+- [planes](https://useplanes.com) - 使用 Motion 和 Tailwind 构建的动画 React 组件注册表，提供少量免费的控件、文本效果和物理交互，大部分目录需付费 Pro 许可证。
+- [pqoqubbw](https://icons.pqoqubbw.dev/) - 开源动画图标集合。
+- [slidytabs](https://slidytabs.dev) - 一个为 shadcn `<Tabs />` 添加滑动指示器动画的工具，无需改变组件的使用或自定义方式。
+- [smooth-ui](https://smoothui.dev/) - 高度可定制、生产就绪的 UI 区块，用于构建外观和体验符合你预期的精美网站和应用。
+- [sora-ui](https://ui.soralabs.studio/) - 基于 shadcn 模型的动效优先 React 组件注册表。通过 CLI 安装 @soralabs/* 原语，代码归你所有。包含滚动显现、文本效果、磁性 UI 等，由 Motion 和 GSAP 驱动，并内置减少动效支持。
+- [tailwindcss-motion](https://rombo.co/tailwind/) - 一个新的简单语法动画库。开箱即用，无限可配置。
+- [ui-beats](https://uibeats.com) - 可通过 shadcn CLI 从其自身注册表安装的动画 React 组件，每个组件都带有属性表、交互式演示和减少动画支持。
+- [uselayouts](https://uselayouts.com) - 免费的高级动画 React 组件和微交互，基于 Framer Motion 和 Tailwind CSS 构建。现代、即用型的动效组件，适用于高转化率网站。
+- [vengence-ui](https://www.vengenceui.com/) - 一个现代、动画化的 UI 组件库，旨在帮助开发者更快地构建精美的落地页和界面。
+:::
+
+::: masonry
+## 颜色与自定义
+- [shadcn-ui-customizer](https://github.com/Railly/shadcn-ui-customizer) - 概念验证——带颜色选择器的 shadcn/ui 主题。
+- [gradient-picker](https://github.com/Illyism/gradient-picker) - 使用 shadcn/ui、Radix UI 和 Tailwind CSS 构建的炫酷渐变选择器。
+- [shadcn-theme-editor](https://github.com/programming-with-ia/shadcn-theme-editor/) - Shadcn 主题编辑器是一个用户友好的组件，旨在简化基于 Shadcn 项目中主题颜色的管理和自定义过程。
+- [navnote-rangeen](https://github.com/navnote/rangeen) - 帮助你为网站创建配色方案的工具。
+- [sebas-dv-shadcn-theme-editor](https://github.com/Sebas-DV/shadcn-theme-editor) - 应用内覆盖层，可实时编辑 shadcn（Tailwind v4 / OKLCH）主题令牌，并通过 PostCSS 将更改直接写回 globals.css，提供 OKLCH 滑块和实时 WCAG 对比度检查。
+- [10000-themes-for-shadcn-ui](https://ui.jln.dev/) - 10000+ 个 shadcn/ui 主题。
+- [dialectcn](https://dialectcn.xyz/) - shadcn 预设的活目录——品牌灵感、社区提交，偶尔随机。选一个，复制代码，发布 UI。
+- [dizzy](https://dizzy.systems) - 使用 shadcn/ui 快速启动新的 Next 或 Vite 项目。自定义字体、图标、颜色、间距、圆角和阴影。
+- [ewgenius-ui](https://ui.ewgenius.me/shadcn-radix-colors) - 使用 Radix Colors 的鲜艳调色板，轻松为 shadcn/ui 创建自定义主题。
+- [identity-forge](https://identityforge.io/kits) - shadcn/ui 主题套件注册表，可通过 shadcn CLI 安装，每个套件设置字体配对以及浅色和深色颜色令牌，大多数套件免费，高级套件需付费 Pro 计划。
+- [matsu-theme](https://matsu-theme.vercel.app/) - 由 Matt Wierzbicki 制作的 Ghibli Studio 风格 shadcn/ui 主题。
+- [shadcnpreset](https://shadcnpreset.com) - 几秒钟内找到完美的 shadcn 预设。开源且免费。
+- [shadesigner-com](https://shadesigner.com) - 具有精美界面的 shadcn/ui 调色板生成器和主题设计器。
+- [smui](https://smui.statico.io) - 受 Nord 启发的 shadcn/ui 终端主题，采用等宽字体、零边框半径和霜蓝色调。
+- [the-gridcn](https://thegridcn.com/) - 受 Tron 启发的 shadcn/ui 主题。
+- [tinte](https://tinte.railly.dev/) - 一个主观的 VS Code 主题生成器 🎨。
+- [tweakcn](https://tweakcn.com/) - 功能强大的 shadcn/ui 组件主题编辑器，提供设计精美的主题和无缝的 Tailwind CSS V4 集成。
+- [zippy-starters-shadcn-ui-theme-generator](https://zippystarter.com/tools/shadcn-ui-theme-generator) - 从单一颜色轻松创建自定义主题，并可复制粘贴到你的应用中。
+:::
+
+::: masonry
+## 网站与作品集
+- [hritu-art](https://github.com/suraj-xd/design-portfolio) - 一个干净、现代的设计师作品集，融合极简美学与功能性 UI，并通过 React Email 内置邮件支持。
+- [andrewsam-xyz](https://www.andrewsam.xyz/) - 使用 shadcn/ui 对流行的 tailwind-nextjs-starter-blog 进行改版，并包含简历部分和时间线组件。
+- [anishshobithps-com](https://anishshobithps.com/) - 一位软件开发者的个人作品集，采用网格风格设计。
+- [birobirobiro-dev](https://birobirobiro.dev/) - 一个个人开发者作品集。
+- [bucharitesh-in](https://bucharitesh.in) - 一个极简作品集，包含出色的 craft 注册表。
+- [chanhdai-com](https://chanhdai.com) - 一个极简作品集、组件注册表和博客。
+- [devfolios](https://devfolios-one.vercel.app/) - 从互联网上寻找最佳作品集灵感。
+- [godly](https://godly.website/) - 天文级优秀的网页设计灵感。只收录最顶尖的作品。
+- [list-swajp-me](https://list.swajp.me) - 通过激励成功人士，找到合适的项目或设计从未如此简单。
+- [nathans-ai](https://chat.brodin.dev) - 一个充当作品集的 AI 聊天机器人，使用 shadcn/ui 组件构建。
+- [shubhporwal-me](https://www.shubhporwal.me/) - 一个引人注目的开发者作品集，基于 NextJS、GSAP、Tailwind 和 React 构建。
+- [swajp-me](https://swajp.me) - 一个视觉上吸引人的作品集和资源中心。
+- [windows-11-clone](https://win11.oimmi.com/) - 一个流畅的 Windows 11 克隆，基于 React、Next.js、Tailwind CSS、ShadCN 和 Framer-Motion 构建，具有平滑动画、可拖拽窗口和现代设计系统。
+:::
+
+::: masonry
+## 插件与扩展
+- [imprompt](https://github.com/avalynndev/imprompt) - 一款 Chrome 扩展，直接在 AI 网站上增强提示词，让你的 AI 提示更有效、更高效。
+- [chat-with-youtube](https://chat-with-youtube.vercel.app/) - 一款 Chrome 扩展，旨在让你能够高效地总结视频、轻松搜索特定部分，并享受其他实用功能。
+- [designgui](https://www.designgui.io/) - 一款用于管理 CSS 变量中颜色的 Chrome 浏览器扩展。
+- [raycast-shadcn](https://www.raycast.com/luisFilipePT/shadcn-ui) - Raycast 扩展，用于浏览 shadcn/ui 文档、组件和示例。
+- [shadcn-hsl-preview](https://marketplace.visualstudio.com/items?itemName=dexxiez.shadcn-color-preview) - 用于 Visual Studio Code 的 shadcn HSL 预览扩展。
+- [shadcn-ui](https://marketplace.visualstudio.com/items?itemName=SuhelMakkad.shadcn-ui) - 直接从 VS Code 添加 shadcn/ui 组件。
+- [shadcn-ui-components-manager](https://plugins.jetbrains.com/plugin/23479-shadcn-ui-components-manager) - 一个适用于 JetBrains 产品的插件。通过该插件，你可以在 Svelte、React、Vue 和 Solid 框架中管理 shadcn/ui 组件，简化添加、移除和更新组件等任务。
+- [vscode-shadcn-svelte](https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-shadcn-svelte&ssr=false#overview) - 用于 Svelte 项目中 shadcn/ui 组件的 VS Code 扩展。
+- [vscode-shadcn-ui-snippets](https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets) - 在 VSCode 中使用代码片段轻松导入和使用 shadcn-ui 组件。只需在 jsx/tsx 文件中输入 cn 或 shadcn，即可获得所有组件列表以供选择。
+- [vscode-shadcn-vue](https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue) - 用于将 shadcn/ui 组件集成到 Vue.js 项目中的扩展。
+:::
+
+::: masonry
+## 设计系统
+- [obra-shadcn-ui](https://www.figma.com/community/file/1514746685758799870/obra-shadcn-ui) - 此文件以可组合的方式复制了所有 51 个 shadcn/ui v4 组件，作为可复用的 Figma 库。
+- [shadcn-storybook-registry](https://registry.lloydrichards.dev/) - shadcn 组件的 story 注册表。快速在 Storybook 中获取原子级组件的文档。
+- [shadcn-ui-components](https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components) - 每个组件都在 Figma 中重新创建。
+- [shadcn-ui-storybook-fellipeutaka](https://fellipeutaka-ui.vercel.app/?path=/docs/components-accordion--docs) - 由 fellipeutaka 在 Storybook 中注册的所有 shadcn/ui 组件。
+- [shadcn-ui-storybook-jheanantunes](https://65711ecf32bae758b457ae34-uryqbzvojc.chromatic.com/) - 由 JheanAntunes 在 Storybook 中注册的所有 shadcn/ui 组件。
+:::
+
