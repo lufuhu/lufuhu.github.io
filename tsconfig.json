@@ -7,6 +7,7 @@
     "lib": ["es2021", "dom"],
     "target": "es2021",
     "allowImportingTsExtensions": true,
+    "allowArbitraryExtensions": true,
     "noEmit": true,
     "baseUrl": ".",
     "paths": { "@/*": ["./.vitepress/theme/*"] }

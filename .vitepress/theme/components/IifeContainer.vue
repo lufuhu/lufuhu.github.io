@@ -5,6 +5,10 @@ import { useStyleLink } from '@/composables/useStyleLink.mts'
 import { useData } from 'vitepress'
 
 const props = defineProps({
+  width: {
+    type: String,
+    default: '',
+  },
   styles: {
     type: Array as PropType<string[]>,
     default: () => [],
@@ -60,11 +64,11 @@ onMounted(() => {
 loadStyle()
 </script>
 <template>
-  <div class="iife-container" :class="{ 'maximized px-5': isMaximized }">
+  <div class="iife-container mx-auto" :class="{ 'maximized px-5': isMaximized }" :style="{ maxWidth: isMaximized ? '100%' : width }">
     <div class="flex items-center h-16" :class="{ '-mt-10 px-1': !isMaximized }">
       <div v-if="frontmatter.title" class="text-lg font-bold">{{ frontmatter.title }}</div>
       <div v-if="frontmatter.description" class="text-sm text-muted-foreground flex-1 truncate px-2 mt-1">{{ frontmatter.description }}</div>
-      <Button @click="handleMaximize" variant="ghost" size="icon-sm">
+      <Button v-if="!width" @click="handleMaximize" variant="ghost" size="icon-sm">
         <span v-if="isMaximized" class="icon-[doodle-icons--minimize] text-2xl"></span>
         <span v-else class="icon-[doodle-icons--maximize] text-2xl"></span>
       </Button>
