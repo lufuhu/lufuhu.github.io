@@ -4,6 +4,13 @@ title: 在线工具
 pageClass: tool-page
 column: 3
 features:
+  - title: OTP 生成
+    link: /tool/otp/
+    details: 一次性密码生成，常用于多因素认证（MFA）/双因素认证（2FA）。
+    icon:
+      html: <span class="icon-[streamline-freehand-color--password-desktop-lock-approved]"></span>
+      size: 2rem
+      position: 'left'
   - title: Color 转换
     link: /tool/color/
     details: 在不同格式（十六进制、rgb、hsl和css名称）之间转换颜色
