@@ -14,7 +14,7 @@ import { CodeBlock, CodeBlockActions, CodeBlockContent, CodeBlockCopyButton, Cod
 import { Label } from '@/components/ui/label'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 import { Field, FieldContent, FieldDescription, FieldError, FieldGroup, FieldLabel, FieldLegend, FieldSeparator, FieldSet, FieldTitle } from '@/components/ui/field'
-
+import { InputGroup, InputGroupAddon, InputGroupButton, InputGroupInput, InputGroupText, InputGroupTextarea } from '@/components/ui/input-group'
 export default {
   extends: DefaultTheme,
   setup() {
@@ -52,5 +52,11 @@ export default {
     app.component('FieldSeparator', FieldSeparator)
     app.component('FieldSet', FieldSet)
     app.component('FieldTitle', FieldTitle)
+    app.component('InputGroup', InputGroup)
+    app.component('InputGroupAddon', InputGroupAddon)
+    app.component('InputGroupButton', InputGroupButton)
+    app.component('InputGroupInput', InputGroupInput)
+    app.component('InputGroupText', InputGroupText)
+    app.component('InputGroupTextarea', InputGroupTextarea)
   },
 } satisfies Theme

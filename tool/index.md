@@ -4,11 +4,25 @@ title: 在线工具
 pageClass: tool-page
 column: 3
 features:
-  - title: UUID 生成器
+  - title: Color 转换
+    link: /tool/color/
+    details: 在不同格式（十六进制、rgb、hsl和css名称）之间转换颜色
+    icon:
+      html: <span class="icon-[fluent-emoji-flat--artist-palette]"></span>
+      size: 2rem
+      position: 'left'
+  - title: ULID 生成
+    link: /tool/ulid/
+    details: 生成随机的通用唯一词典可排序标识符（ULID）。
+    icon:
+      html: <span class="icon-[streamline-ultimate-color--arrange-number]"></span>
+      size: 2rem
+      position: 'left'
+  - title: UUID 生成
     link: /tool/uuid/
     details: 通用唯一标识符（UUID）是一个128位数字，用于标识计算机系统中的信息。
     icon:
-      html: <span class="icon-[logos--uuid]"></span>
+      html: <span class="icon-[vp--uuid]"></span>
       size: 2rem
       position: 'left'
   - title: 文本比较

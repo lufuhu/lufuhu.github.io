@@ -1,6 +1,6 @@
 ---
-title: 文本比较
-description: 比较两个文本并查看它们之间的差异。
+title: UUID 生成
+description: 通用唯一标识符（UUID）是一个128位数字，用于标识计算机系统中的信息。
 sidebar: false
 aside: false
 lastUpdated: false
@@ -42,11 +42,11 @@ pageClass: container-page
               nsecs: Math.floor(Math.random() * 10000),
             }));
           } else if (scope.version === 'V3') {
-            items.push(uuid.v3(scope.name, scope.namespace));
+            items.push(uuid.v3(scope.name, scope.namespaceOptions[scope.namespace]));
           } else if (scope.version === 'V4') {
             items.push(uuid.v4());
           } else if (scope.version === 'V5') {
-            items.push(uuid.v5(scope.name, scope.namespace));
+            items.push(uuid.v5(scope.name, scope.namespaceOptions[scope.namespace]));
           } else if (scope.version === 'V6') {
             items.push(uuid.v6({
               node: u8.from(Array.from({ length: 6 }, () => Math.floor(Math.random() * 256))),
@@ -69,7 +69,7 @@ pageClass: container-page
       <FieldGroup>
         <Field>
           <FieldLabel for="version" class="w-16">版本</FieldLabel>
-          <RadioGroup v-model="scope.version" class="flex flex-wrap items-center gap-4">
+          <RadioGroup @update:model-value="(v) => { scope.version = v; scope.generate() }" v-model="scope.version" class="flex flex-wrap items-center gap-4">
             <div v-for="v in scope.versionOptions" :key="v" class="flex items-center">
               <RadioGroupItem :id="v" :value="v" />
               <Label class="w-10 px-2" :for="v">{{ v }}</Label>
@@ -78,26 +78,23 @@ pageClass: container-page
         </Field>
         <Field>
           <FieldLabel for="version" class="w-16">数量</FieldLabel>
-          <Input type="number" v-model="scope.count" placeholder="请输入数量" />
+          <Input @input="scope.generate" type="number" v-model="scope.count" placeholder="请输入数量" />
         </Field>
         <Field v-if="scope.version === 'V3' || scope.version === 'V5'">
           <FieldLabel for="version" class="w-16">命名空间</FieldLabel>
-          <RadioGroup v-model="scope.namespace" class="flex flex-wrap items-center gap-4">
+          <RadioGroup @update:model-value="(v) => { scope.namespace = v; scope.generate() }" v-model="scope.namespace" class="flex flex-wrap items-center gap-4">
             <div v-for="(v, k) in scope.namespaceOptions" :key="k" class="flex items-center">
-              <RadioGroupItem :id="k" :value="v" />
+              <RadioGroupItem :id="k" :value="k" />
               <Label class="w-10 px-2" :for="k">{{ k }}</Label>
             </div>
           </RadioGroup>
         </Field>
         <Field v-if="scope.version === 'V3' || scope.version === 'V5'">
           <FieldLabel for="version" class="w-16">名称</FieldLabel>
-          <Input type="text" v-model="scope.name" placeholder="请输入名称" />
+          <Input @input="scope.generate" type="text" v-model="scope.name" placeholder="请输入名称" />
         </Field>
         <Field>
-          <Button type="primary" class="w-full" @click="scope.generate">生成UUID</Button>
-        </Field>
-        <Field>
-          <CodeBlock>
+          <CodeBlock class="min-h-70">
             <CodeBlockHeader>
               <CodeBlockTitle>
                 生成结果
