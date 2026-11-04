@@ -4,6 +4,13 @@ title: 在线工具
 pageClass: tool-page
 column: 3
 features:
+  - title: 二维码/条形码读取
+    link: /tool/qrcode-reader/
+    details: 基于ZXing-C++（WebAssembly）的二维码/条形码读取工具。
+    icon:
+      html: <span class="icon-[streamline-flex-color--qr-code]"></span>
+      size: 2rem
+      position: 'left'
   - title: OTP 生成
     link: /tool/otp/
     details: 一次性密码生成，常用于多因素认证（MFA）/双因素认证（2FA）。
