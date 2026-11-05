@@ -4,6 +4,13 @@ title: 在线工具
 pageClass: tool-page
 column: 3
 features:
+  - title: XSS 净化
+    link: /tool/xss-sanitizer/
+    details: 超高速、超宽容 XSS 的HTML、MathML 和 SVG 净化器。
+    icon:
+      html: <span class="icon-[streamline-sharp-color--clean-broom-wipe-flat]"></span>
+      size: 2rem
+      position: 'left'
   - title: 二维码/条形码读取
     link: /tool/qrcode-reader/
     details: 基于ZXing-C++（WebAssembly）的二维码/条形码读取工具。

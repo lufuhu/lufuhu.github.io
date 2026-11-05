@@ -16,6 +16,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 import { Field, FieldContent, FieldDescription, FieldError, FieldGroup, FieldLabel, FieldLegend, FieldSeparator, FieldSet, FieldTitle } from '@/components/ui/field'
 import { InputGroup, InputGroupAddon, InputGroupButton, InputGroupInput, InputGroupText, InputGroupTextarea } from '@/components/ui/input-group'
 import { Marker, MarkerContent, MarkerIcon } from '@/components/ui/marker'
+import { Textarea } from '@/components/ui/textarea'
 
 export default {
   extends: DefaultTheme,
@@ -63,5 +64,6 @@ export default {
     app.component('Marker', Marker)
     app.component('MarkerContent', MarkerContent)
     app.component('MarkerIcon', MarkerIcon)
+    app.component('Textarea', Textarea)
   },
 } satisfies Theme

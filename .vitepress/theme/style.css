@@ -326,7 +326,7 @@
 
 .iife-container .iife-content {
   width: 100%;
-  min-height: calc(100vh - 14rem);
+  min-height: calc(100vh - 20rem);
 }
 
 .VPFeatures {

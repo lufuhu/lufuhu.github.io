@@ -15,7 +15,7 @@ pageClass: container-page
     (scope) => {
       const readBarcodes = scope.window.ZxingWasm.readBarcodes
       scope.qrcode = '';
-      scope.results = 'otpauth://totp/lufuhu:master%40lufuhu.com?issuer=lufuhu&secret=XCCHNUCYME6KG4G5RF3ESB3ZR253IA4Z&algorithm=SHA1&digits=6&period=30';
+      scope.results = '';
       scope.uploadQrcode = (e) => {
         scope.qrcode = '';
         const file = e.target.files && e.target.files[0];
