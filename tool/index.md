@@ -4,6 +4,13 @@ title: 在线工具
 pageClass: tool-page
 column: 3
 features:
+  - title: SVGEdit
+    link: /tool/svgedit/
+    details: 一款快速的 SVG 绘图编辑器
+    icon:
+      html: <span class="icon-[vp--svgedit]"></span>
+      size: 2rem
+      position: 'left'
   - title: XSS 净化
     link: /tool/xss-sanitizer/
     details: 超高速、超宽容 XSS 的HTML、MathML 和 SVG 净化器。
