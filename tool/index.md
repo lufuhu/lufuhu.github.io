@@ -4,6 +4,13 @@ title: 在线工具
 pageClass: tool-page
 column: 3
 features:
+  - title: 单位转换
+    link: /tool/unit-convert/
+    details: 在不同单位之间进行转换。
+    icon:
+      html: <span class="icon-[withicons-suite--component]"></span>
+      size: 2rem
+      position: 'left'
   - title: 字体分包
     link: /tool/font-split/
     details: 拆分字体文件以适配 Web 分发，或按文本内容生成字体子集。
