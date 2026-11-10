@@ -40,15 +40,18 @@ pageClass: container-page
         scope.status = 'running';
         scope.results = '';
         scope.zipped = null;
-        const subsets = [];
+        const config = { input: scope.input, subsets: [] };
         if (scope.text) {
           const chars = [...new Set(scope.text)].map((c) => c.codePointAt(0));
           const buf = new scope.window.ArrayBuffer(chars.length * 4);
           const view = new scope.window.DataView(buf);
           chars.forEach((cp, i) => view.setUint32(i * 4, cp, true));
-          subsets.push(new scope.window.Uint8Array(buf));
+          config.subsets.push(new scope.window.Uint8Array(buf));
+          config.autoSubset = false;
+          config.subsetRemainChars = false;
+          config.languageAreas = false;
         }
-        fontSplit({ input: scope.input, subsets: subsets }).then((res) => {
+        fontSplit(config).then((res) => {
           let files = {};
           const namePad = Math.max(...res.map((r) => r.name.length)) + 2;
           res.forEach((item) => {

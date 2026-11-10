@@ -42,6 +42,26 @@ pageClass: container-page
       scope.changeTheme = (dark) => {
         monaco.editor.setTheme(dark ? 'vs-dark' : 'vs')
       }
+      scope.uploadOriginal = (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (!file) return;
+        filename = file.name;
+        const reader = new scope.window.FileReader();
+        reader.onload = () => {
+          originalModel.setValue(reader.result)
+        };
+        reader.readAsText(file);
+      };
+      scope.uploadModified = (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (!file) return;
+        filename = file.name;
+        const reader = new scope.window.FileReader();
+        reader.onload = () => {
+          modifiedModel.setValue(reader.result)
+        };
+        reader.readAsText(file);
+      };
     }
   "
 >
@@ -49,10 +69,10 @@ pageClass: container-page
     <Card>
       <div class="flex items-center">
         <div style="width: calc(50% - 15px);">
-          <Input type="file" class="w-auto" />
+          <Input @change="scope.uploadOriginal" type="file" class="w-auto" />
         </div>
         <div>
-          <Input type="file" />
+          <Input @change="scope.uploadModified" type="file" />
         </div>
       </div>
       <div id="text-diff-container" class="w-full h-[70vh] shadow-xs rounded-md" :class="{ 'h-[79vh]': scope.isMaximized }"></div>
