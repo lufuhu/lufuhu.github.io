@@ -119,7 +119,6 @@ pageClass: container-page
             scope.create();
           }
         });
-        e.target.value = '';
       };
     }
   "

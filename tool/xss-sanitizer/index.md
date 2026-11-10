@@ -29,7 +29,6 @@ pageClass: container-page
           scope.generate();
         };
         reader.readAsText(file);
-        e.target.value = '';
       };
       scope.download = () => {
         const a = scope.window.document.createElement('a');

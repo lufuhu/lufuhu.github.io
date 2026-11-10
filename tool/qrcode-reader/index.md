@@ -34,7 +34,6 @@ pageClass: container-page
             scope.results = codes[0].text;
           }
         });
-        e.target.value = '';
       };
     }
   "

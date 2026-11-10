@@ -10,11 +10,12 @@ pageClass: container-page
 
 <IifeContainer
   width="700px"
-  :scripts="['/assets/iife/cn-font-split/index.js', '/assets/iife/fflate/index.js']"
+  :scripts="['/assets/iife/cn-font-split/index.js', '/assets/iife/fflate/index.js', '/assets/iife/bytes/index.js']"
   :load="
     (scope) => {
       const fontSplit = scope.window.CnFontSplit;
       const fflate = scope.window.Fflate;
+      const bytes = scope.window.Bytes;
       scope.results = '';
       scope.text = '';
       scope.input = null;
@@ -34,25 +35,30 @@ pageClass: container-page
         if (!file) return;
         scope.filename = file.name.replace(/\.[^.]+$/, '');
         scope.input = new scope.window.Uint8Array(await file.arrayBuffer());
-        e.target.value = '';
       };
       scope.generate = () => {
         scope.status = 'running';
         scope.results = '';
         scope.zipped = null;
-        let chars = [];
-        if (scope.text){
-          chars = [...new Set(scope.text)].map(c => c.codePointAt(0));
+        const subsets = [];
+        if (scope.text) {
+          const chars = [...new Set(scope.text)].map((c) => c.codePointAt(0));
+          const buf = new scope.window.ArrayBuffer(chars.length * 4);
+          const view = new scope.window.DataView(buf);
+          chars.forEach((cp, i) => view.setUint32(i * 4, cp, true));
+          subsets.push(new scope.window.Uint8Array(buf));
         }
-        fontSplit({ input: scope.input, subsets: [chars] }).then((res) => {
+        fontSplit({ input: scope.input, subsets: subsets }).then((res) => {
           let files = {};
+          const namePad = Math.max(...res.map((r) => r.name.length)) + 2;
           res.forEach((item) => {
             files[item.name] = item.data;
-            scope.results = `${item.name} ${item.data.length} bytes\n` + scope.results;
+            scope.results = `${item.name.padEnd(namePad)}${bytes.format(item.data.length).padStart(10)}\n` + scope.results;
           });
           scope.zipped = fflate.zipSync(files);
           scope.status = 'success';
-        }).catch(() => {
+        }).catch((err) => {
+          scope.results = err;
           scope.status = 'error';
         });
       };
@@ -76,7 +82,7 @@ pageClass: container-page
           </Button>
         </Field>
         <Field>
-          <CodeBlock class="min-h-70 max-h-[65vh]">
+          <CodeBlock class="min-h-70 max-h-[50vh]" :variant="scope.status === 'error' ? 'destructive' : null">
             <CodeBlockHeader>
               <CodeBlockTitle>
                 分包结果
